@@ -1,0 +1,65 @@
+# Pilot F: the Petersson inner product on cusp forms
+
+Lean 4 (v4.33.1) with Mathlib `db584cd6`, building on Pilot D (`../pilot-d`, required as a path
+dependency). Standard axioms only, no `sorry`.
+
+## What is proved
+
+| Result | Lean name | Status |
+| --- | --- | --- |
+| `𝒟` (fundamental domain of `SL(2, ℤ)`) has finite invariant measure | `PilotF.volume_fd_lt_top` | proved formally |
+| Convergence: the Petersson integrand of two cusp forms is integrable on `𝒟` | `PilotF.integrableOn_peterssonSum` | proved formally |
+| Definition of `⟪f, g⟫` on `S_k(𝒢)`, `𝒢` arithmetic with determinant one (e.g. `Γ₀(N)`) | `PilotF.peterssonInner` | definition |
+| Hermitian, sesquilinear | `peterssonInner_conj_symm`, `_add_left/right`, `_smul_left/right` | proved formally |
+| Positive definite | `peterssonInner_self_nonneg`, `peterssonInner_self_eq_zero` | proved formally |
+| Bundled inner product structure | `PilotF.peterssonCore : InnerProductSpace.Core ℂ (CuspForm 𝒢 k)` | proved formally |
+| Boundary of `𝒟` is null; translates of `𝒟` cover `ℍ` exactly twice a.e. | `volume_fd_diff_fdo`, `tsum_indicator_fd_smul` | proved formally |
+| Unfolding: invariance under any det-one `W` normalizing `𝒢 ≤ SL(2, ℤ)` | `lintegral_fd_sum_comp_smul`, `peterssonInner_self_slash`, `peterssonInner_map_eq` | proved formally |
+| Trace is adjoint to inclusion: `⟪g, f⟫_𝒢 = ⟪g, Tr f⟫_{SL(2,ℤ)}` | `peterssonInner_eq_peterssonInner_trace` | proved formally |
+| Fricke `W_N` is unitary and self-adjoint on `S_k(Γ₀(N))` | `peterssonInner_fricke`, `peterssonInner_fricke_left` | proved formally |
+| Statement: D's trace-kernel new space = Petersson complement of old space | `PilotF.NewSubspaceEqOrthogonal N k` | compiles (all `N`) |
+| The statement for `N = p` prime | `newSubspaceEqOrthogonal_prime`, `newSubspace_eq_peterssonOrthogonal_oldSubspace` | proved formally |
+| Trace `Tr_{𝒢 → ℋ}` adjoint to inclusion for any `𝒢 ≤ ℋ ≤ SL(2, ℤ)` | `peterssonInner_eq_peterssonInner_trace_of_le` | proved formally |
+| `B_p = (-√p)^(-k) • W_N ∘ B_1 ∘ W_{N/p}` | `levelRaise_p_eq_smul_fricke` | proved formally |
+| The statement for every `N ≠ 0` (composite included) | `newSubspaceEqOrthogonal`, `newSubspace_eq_peterssonOrthogonal` | proved formally |
+
+## Definition
+
+```
+⟪f, g⟫ = ∫_{τ ∈ 𝒟} ∑_{h ∈ 𝒮ℒ ⧸ 𝒢} conj (f (h⁻¹ τ)) · g (h⁻¹ τ) · (im (h⁻¹ τ)) ^ k  dx dy / y²
+```
+
+When `-1 ∈ 𝒢` (as for `Γ₀(N)`) this is the integral over `𝒢 \ ℍ`, unfolded along `SL(2, ℤ)`, so
+no fundamental domain for `𝒢` is constructed. It is not divided by the index (divide by
+`[SL(2, ℤ) : 𝒢]` for the level-independent normalization). It is conjugate linear in the first argument, matching Mathlib's
+`UpperHalfPlane.petersson` and `InnerProductSpace`.
+
+## Files
+
+* `PilotF/Petersson.lean`: finite volume, integrability, the inner product, positivity, the
+  identity theorem step (a holomorphic function vanishing on `𝒟ᵒ` is zero).
+* `PilotF/Unfolding.lean`: the change-of-variables argument with Lebesgue integrals, polarization.
+* `PilotF/Newforms.lean`: trace adjointness, Fricke, the newform statement and the prime case.
+* `PilotF/NewformsGeneral.lean`: the coset bijection `(SL₂(ℤ)/ℋ) × (ℋ/𝒢) ≃ SL₂(ℤ)/𝒢`, trace
+  adjointness at intermediate levels, `B_p` via Fricke, and the statement for all `N`.
+* `AxiomCheck.lean`: 20 `#guard_msgs` checks that the main results depend only on
+  `propext`, `Classical.choice`, `Quot.sound`.
+
+## Build
+
+```
+lake build PilotF AxiomCheck
+```
+
+The Mathlib cache host is blocked in the cloud container, so Mathlib is compiled from source
+(about 3,400 modules, roughly 1.5 h on 4 cores and 15 GB RAM).
+
+## Assumptions and design choices
+
+* Composite `N`: every `B_d` from a level `M' < N` with `M' d ∣ N` factors through `B_1` or `B_p`
+  from level `N / p` for some prime `p ∣ N` (if `p ∣ d`, `B_d = B_p ∘ B_{d/p}`; otherwise
+  `M' d ∣ N / p` and `B_d = B_1 ∘ B_d`). `B_1` is adjoint to `Tr_{N/M}`, and
+  `B_p = (-√p)^(-k) W_N B_1 W_M` with `W_N` self-adjoint and `W_M` an involution, so orthogonality
+  to `B_p` is the condition `Tr_{N/M}(W_N f) = 0`. Only `W_N` and `W_M` are needed; the general
+  Atkin–Lehner `W_Q` (`Q ∥ N`) never appears, because Pilot D's `newSubspace` is defined with `W_N`.
+* The equivalence is stated with D's `CuspForm.newSubspace` and `CuspForm.oldSubspace` unchanged.
