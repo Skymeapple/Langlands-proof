@@ -1,4 +1,5 @@
 import PilotA.Modularity
+import PilotA.FrobeniusTrace
 
 /-- info: 'PilotA.exists_semistable_model' depends on axioms: [propext, Classical.choice, Quot.sound] -/
 #guard_msgs in
@@ -11,3 +12,11 @@ import PilotA.Modularity
 /-- info: 'PilotA.scaled11a3_isModular' depends on axioms: [propext, Classical.choice, Quot.sound] -/
 #guard_msgs in
 #print axioms PilotA.scaled11a3_isModular
+
+/-- info: 'PilotA.apOfModel_eq_of_smul' depends on axioms: [propext, Classical.choice, Quot.sound] -/
+#guard_msgs in
+#print axioms PilotA.apOfModel_eq_of_smul
+
+/-- info: 'PilotA.IsModular.ap_eq_of_isIntegralModelOf' depends on axioms: [propext, Classical.choice, Quot.sound] -/
+#guard_msgs in
+#print axioms PilotA.IsModular.ap_eq_of_isIntegralModelOf
