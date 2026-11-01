@@ -37,10 +37,27 @@ integral equation." This pilot removes that restriction.
 - `PilotA.apOfModel_twist`: for the integral twist `twist W d`, a_p(W^d) = (d/p)·a_p(W) at odd p ∤ d of good
   reduction. Proved.
 - `PilotA.isModular_twist_of_isSemistable`: quadratic twists of semistable curves (which have additive reduction
-  at p ∣ d) are modular. **Conditional** on `WilesStatement` (proved in the FLT repo) and `TwistStatement`: that a
-  weight-2 normalised eigenform twisted by a quadratic character is again one (Shimura Prop. 3.64; Atkin–Li).
-  `TwistStatement` is a classical theorem, but Mathlib has no twisting of cusp forms, so it is **assumed, not
-  proved** here.
+  at p ∣ d) are modular, given `WilesStatement` and `TwistStatement`.
+
+### Added 2026-11-01 (later): `TwistStatement` is now a theorem (H2(a) done)
+
+`PilotA.twistStatement : TwistStatement` (`PilotA/TwistModularity.lean`) proves that every weight-2 normalised
+eigenform on Γ₀(N) has, for each nonzero integer d, a twist that is a normalised eigenform on some Γ₀(M), N ∣ M,
+with p-th coefficient (d/p)·a_p for p ∤ 2dM. So `PilotA.isModular_twist_of_isSemistable'` gives modularity of all
+quadratic twists of semistable curves from `WilesStatement` alone. Built from Mathlib's slash action, Gauss sums and
+q-expansion uniqueness, with no new axioms:
+
+- `PilotA.twistCuspForm` (`TwistOperator.lean`): Σ_{a mod D} χ(a) · f ∣ [[1, a/D], [0, 1]] is a cusp form on Γ₀(N D²)
+  for any character with χ² = 1 on units (invariance, holomorphy, vanishing at every cusp).
+- `PilotA.qExpansion_twistCuspForm_coeff` (`TwistQExpansion.lean`): for primitive χ its n-th coefficient is
+  g(χ)·χ⁻¹(n)·aₙ.
+- `PilotA.gaussSum_ne_zero_of_isPrimitive`: the Gauss sum of a primitive character of any modulus is nonzero
+  (Fourier inversion; Mathlib only had the prime-field case).
+- `PilotA.isNormalizedEigenform_normTwist`: g(χ)⁻¹ times the twist is a normalised eigenform on Γ₀(N D²).
+- Characters: χ₄ for d = −1, χ₈ for d = 2, the Legendre character mod q for d = q* = (−1)^((q−1)/2) q, each proved
+  primitive; general d by closing the property under products (`twistP_mul`) and factoring d.
+
+The level M = N·D² is not the minimal level (that is the Atkin–Li refinement), which the statement does not need.
 
 `PilotA/Vendored/Def_FLTPrelim_Modularity.lean` is the repo's `Definitions/Def_FLTPrelim_Modularity.lean`, byte for
 byte. `PilotA/WithRepo.lean.txt` is the instantiation with the repo's theorem, to be compiled inside the repo.
