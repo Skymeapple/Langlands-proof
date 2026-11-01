@@ -1,0 +1,12 @@
+-- To be compiled inside anthropics/fermats-last-theorem (add PilotA/SemistableModel.lean and
+-- PilotA/Modularity.lean, importing Definitions.Def_FLTPrelim_Modularity instead of the vendored copy).
+import Theorems.Thm_WeierstrassCurve_modularity_of_semistableModel
+import PilotA.Modularity
+
+theorem WeierstrassCurve.modularity_of_isSemistable (E : WeierstrassCurve ℚ) (hE : E.Δ ≠ 0)
+    (hss : PilotA.IsSemistable E) : E.IsModular :=
+  PilotA.isModular_of_isSemistable (fun W hΔ hW => WeierstrassCurve.modularity_of_semistableModel W hΔ hW) E hE hss
+
+/-- info: 'WeierstrassCurve.modularity_of_isSemistable' depends on axioms: [propext, Classical.choice, Quot.sound] -/
+#guard_msgs in
+#print axioms WeierstrassCurve.modularity_of_isSemistable
