@@ -12,7 +12,9 @@ period over a function field. Nothing here uses LMFDB. Everything is plain Pytho
 | Every elliptic curve E/F_3(t) with χ = 1, multiplicative reduction at ∞ and finite conductor n of degree ≤ 4 (744 curves) has a_P(E) equal to the T_P eigenvalue of exactly one rational newform of level Γ0(n), for every place P ∤ n of degree ≤ 4 | checked by computation | `data/match_q3.json`, `data/curves_q3.csv` |
 | The same over F_5(t), deg n ≤ 3, places of degree ≤ 3 (880 curves) | checked by computation | `data/match_q5.json`, `data/curves_q5.csv` |
 | Converse: every rational newform of level n is matched, by at least one curve split at ∞ and one non-split at ∞. That is 186 newforms over F_3(t) (deg n ≤ 4) and 140 over F_5(t) (deg n = 3). Old eigensystems (90 for q = 3, each with multiplicity 2) match no curve | checked by computation | `analyze.py` output below |
-| Twisted Hecke period identity Λ_D(f; z) = κ_f · z · L(E^D, z/q) as polynomials, with κ_f = ±q(q−1) independent of D. Tested for all newforms of degree-3 level and all monic squarefree D of degree 2 prime to n: 96 checks for q = 3 and 1,820 for q = 5, all exact | checked by computation (the identity itself is the function-field Hecke/Birch formula; we did not prove it here) | `data/period_q*.json`, `check_period.py` |
+| Twisted Hecke period identity Λ_D(f; z) = ε_f (q−1) q^{deg D/2} · z · L(E^D, z/q) as polynomials, where ε_f = ±1 depends only on f (the sign of the primitive normalization). Tested for all newforms of degree-3 level and all monic squarefree D of degree 2 prime to n (96 checks for q = 3, 1,820 for q = 5), and for D of degree 4 over F_3(t) on 12 newforms (365 checks). All 2,281 are exact | checked by computation (the identity is the function-field Hecke/Birch formula; we did not prove it here) | `data/period_q*.json`, `check_period.py` |
+| Jacquet–Langlands: for the definite quaternion algebra ramified at {P, ∞} (deg P = 1) and an Eichler order of level M (n = PM), the Brandt matrices have a 1-dimensional common eigenspace for every rational newform of level n, with the same T_ℓ eigenvalues | checked by computation | `quaternion.py`, `gross.py` |
+| Gross/Waldspurger toric period (BZSV X = PGL2/T, T a non-split torus, on the definite inner form). L(E^{D0}, 1/q) · ⟨f_D, f_D⟩ · \|d_K\|^{1/2} = c · P_{D0}(f)² · ‖f‖², with P_{D0} the sum of f_D over Gross points in Pic(O_K) and ‖f‖² the Petersson norm of the primitive harmonic cochain. c = 2 when ∞ ramifies in K and c = 1 when ∞ is inert. Holds with this one constant in all 603 non-vanishing cases (74 over F_3(t) with deg D0 ≤ 3, 529 over F_5(t) with deg D0 ≤ 2). The period vanishes exactly when the L-value does, in all 52 vanishing cases | checked by computation (empirical constant; it should follow from the function-field Gross formula, but we did not derive the constant) | `data/gross_q*.json`, `check_gross.py` |
 
 "Rational newform" means a simultaneous eigenvector with integer eigenvalues for all T_P with
 deg P ≤ 2 (P ∤ n), whose eigensystem does not occur at a proper divisor level. Its eigenvalues
@@ -28,6 +30,17 @@ with χ > 1, which the enumeration does not search directly.
 The newform attached to E has λ_P = a_P(E) when E is split multiplicative at ∞, and
 λ_P = (−1)^deg P · a_P(E) when it is non-split. The non-split curve is the unramified quadratic
 twist of a split one, so this is the expected twist by the sign character of the degree.
+
+### Gross / Waldspurger period (non-split torus)
+
+D = (ν, P) with ν a non-square constant and deg P = 1 is ramified exactly at P and ∞.
+O = A⟨1, i, j, ij⟩ is maximal with class number 1 and O^× = F_{q²}^×. So the Brandt module of the
+Eichler order of level M is the set of functions on P^1(A/M)/(O^×/F_q^×), with O acting through an
+explicit isomorphism O/MO ≅ M_2(A/M). For K = F(√D0) with P inert, the primes of M split and ∞
+not split, the Gross points are y ∈ O with y² = D0 (with fixed orientations at P and M). Each
+CM point of Pic(O_K) appears q + 1 times among the y, and `check_gross.py` divides the raw sum by
+(q + 1) to get P_{D0}. The L-value comes from point counts on E alone. Note L(E, 1/q) = 1 here
+(deg N = 4), so L(E_K, 1) = L(E^{D0}, 1/q).
 
 ### Period check (the BZSV part)
 
@@ -71,6 +84,9 @@ At z = 1 this says the Hecke period equals the central value L(E^D, 1/q) up to �
     python3 analyze.py data/match_q3.json; python3 analyze.py data/match_q5.json
     python3 period.py data/match_q3.json x data/period_q3.json 2; python3 check_period.py data/period_q3.json 3
     python3 period.py data/match_q5.json x data/period_q5.json 2; python3 check_period.py data/period_q5.json 5
+    python3 period.py data/match_q3.json x data/period_q3_D4_s0.json 4 0/10   # shards 0..3 of degree-4 twists
+    python3 gross.py 3 data/match_q3.json data/gross_q3.json 3; python3 check_gross.py data/gross_q3.json 3
+    python3 gross.py 5 data/match_q5.json data/gross_q5.json 2; python3 check_gross.py data/gross_q5.json 5
     python3 export.py
 
 ## Scope and limits
