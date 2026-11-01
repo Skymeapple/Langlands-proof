@@ -48,6 +48,14 @@ H1 **proved formally**: `PilotA.exists_semistable_model` and `PilotA.isModular_o
 the standard axioms. The composition with the repo's proved theorem (`WithRepo.lean.txt`) is a one-line
 application that has not been compiled, because the repo's build exceeds this machine.
 
+H6 **proved formally** (2026-11-01): `PilotA.apOfModel_eq_of_smul`, `PilotA.IsModular.ap_eq_of_isIntegralModelOf`.
+
+H2(a) **partly proved**: the arithmetic side `PilotA.apOfModel_twist` (a_p(W^d) = (d/p)·a_p(W)) is proved. The
+modular-forms side, that twisting preserves weight-2 normalised eigenforms, is the explicit hypothesis
+`TwistStatement`, so `PilotA.isModular_twist_of_isSemistable` is conditional on it. Formalising `TwistStatement`
+needs Gauss sums, the slash action of the translations [[1, a/D], [0, 1]], the cusp conditions on Γ₀(N D²), and the
+q-expansion of the twist. All of these are missing from Mathlib, and this is the next large job.
+
 ## 3. Next targets after H1
 - H6 (model independence of a_ℓ), which makes `IsModular` usable for any equation.
 - H2(a) twists: start by formalising quadratic twists of q-expansions and the point-count identity

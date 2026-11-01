@@ -24,6 +24,24 @@ integral equation." This pilot removes that restriction.
 - `PilotA.scaled11a3_isModular`: a worked example outside the repo's theorem: `y² + 8y = x³ − 4x²` (curve 11a3
   scaled by u = 1/2), whose equation has 2 ∣ Δ and 2 ∣ c₄.
 
+### Added 2026-11-01: model independence (H6) and quadratic twists (H2(a), partial)
+
+- `PilotA.apOfModel_eq_of_smul` (`PilotA/FrobeniusTrace.lean`): two integral equations of the same curve over ℚ
+  that both have good reduction at p have the same a_p. Proved: the change of variables is p-integral with unit u
+  (reusing `rst_le_one`), lifts to ℤ_[p], reduces mod p, and a change of variables over a field is a bijection on
+  points (`card_smul`).
+- `PilotA.IsModular.ap_eq_of_isIntegralModelOf`: if `E` is modular, the eigenform matches a_p of **any** integral
+  equation of `E` at its good primes, outside the level and one fixed nonzero integer.
+- `PilotA.card_eq_sum_quadraticChar` (`PilotA/Twist.lean`): #E(F_q) = q + 1 + Σₓ χ(4x³ + b₂x² + 2b₄x + b₆) in odd
+  characteristic.
+- `PilotA.apOfModel_twist`: for the integral twist `twist W d`, a_p(W^d) = (d/p)·a_p(W) at odd p ∤ d of good
+  reduction. Proved.
+- `PilotA.isModular_twist_of_isSemistable`: quadratic twists of semistable curves (which have additive reduction
+  at p ∣ d) are modular. **Conditional** on `WilesStatement` (proved in the FLT repo) and `TwistStatement`: that a
+  weight-2 normalised eigenform twisted by a quadratic character is again one (Shimura Prop. 3.64; Atkin–Li).
+  `TwistStatement` is a classical theorem, but Mathlib has no twisting of cusp forms, so it is **assumed, not
+  proved** here.
+
 `PilotA/Vendored/Def_FLTPrelim_Modularity.lean` is the repo's `Definitions/Def_FLTPrelim_Modularity.lean`, byte for
 byte. `PilotA/WithRepo.lean.txt` is the instantiation with the repo's theorem, to be compiled inside the repo.
 
