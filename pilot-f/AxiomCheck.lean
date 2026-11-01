@@ -34,3 +34,11 @@ import PilotF
 #guard_msgs in #print axioms PilotF.newSubspaceEqOrthogonal_prime
 /-- info: 'PilotF.newSubspace_eq_peterssonOrthogonal_oldSubspace' depends on axioms: [propext, Classical.choice, Quot.sound] -/
 #guard_msgs in #print axioms PilotF.newSubspace_eq_peterssonOrthogonal_oldSubspace
+/-- info: 'PilotF.peterssonInner_eq_peterssonInner_trace_of_le' depends on axioms: [propext, Classical.choice, Quot.sound] -/
+#guard_msgs in #print axioms PilotF.peterssonInner_eq_peterssonInner_trace_of_le
+/-- info: 'PilotF.levelRaise_p_eq_smul_fricke' depends on axioms: [propext, Classical.choice, Quot.sound] -/
+#guard_msgs in #print axioms PilotF.levelRaise_p_eq_smul_fricke
+/-- info: 'PilotF.newSubspaceEqOrthogonal' depends on axioms: [propext, Classical.choice, Quot.sound] -/
+#guard_msgs in #print axioms PilotF.newSubspaceEqOrthogonal
+/-- info: 'PilotF.newSubspace_eq_peterssonOrthogonal' depends on axioms: [propext, Classical.choice, Quot.sound] -/
+#guard_msgs in #print axioms PilotF.newSubspace_eq_peterssonOrthogonal

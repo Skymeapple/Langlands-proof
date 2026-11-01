@@ -19,7 +19,9 @@ dependency). Standard axioms only, no `sorry`.
 | Fricke `W_N` is unitary and self-adjoint on `S_k(Γ₀(N))` | `peterssonInner_fricke`, `peterssonInner_fricke_left` | proved formally |
 | Statement: D's trace-kernel new space = Petersson complement of old space | `PilotF.NewSubspaceEqOrthogonal N k` | compiles (all `N`) |
 | The statement for `N = p` prime | `newSubspaceEqOrthogonal_prime`, `newSubspace_eq_peterssonOrthogonal_oldSubspace` | proved formally |
-| The statement for composite `N` | | open |
+| Trace `Tr_{𝒢 → ℋ}` adjoint to inclusion for any `𝒢 ≤ ℋ ≤ SL(2, ℤ)` | `peterssonInner_eq_peterssonInner_trace_of_le` | proved formally |
+| `B_p = (-√p)^(-k) • W_N ∘ B_1 ∘ W_{N/p}` | `levelRaise_p_eq_smul_fricke` | proved formally |
+| The statement for every `N ≠ 0` (composite included) | `newSubspaceEqOrthogonal`, `newSubspace_eq_peterssonOrthogonal` | proved formally |
 
 ## Definition
 
@@ -38,7 +40,9 @@ no fundamental domain for `𝒢` is constructed. It is not divided by the index 
   identity theorem step (a holomorphic function vanishing on `𝒟ᵒ` is zero).
 * `PilotF/Unfolding.lean`: the change-of-variables argument with Lebesgue integrals, polarization.
 * `PilotF/Newforms.lean`: trace adjointness, Fricke, the newform statement and the prime case.
-* `AxiomCheck.lean`: 16 `#guard_msgs` checks that the main results depend only on
+* `PilotF/NewformsGeneral.lean`: the coset bijection `(SL₂(ℤ)/ℋ) × (ℋ/𝒢) ≃ SL₂(ℤ)/𝒢`, trace
+  adjointness at intermediate levels, `B_p` via Fricke, and the statement for all `N`.
+* `AxiomCheck.lean`: 20 `#guard_msgs` checks that the main results depend only on
   `propext`, `Classical.choice`, `Quot.sound`.
 
 ## Build
@@ -52,8 +56,10 @@ The Mathlib cache host is blocked in the cloud container, so Mathlib is compiled
 
 ## Assumptions and design choices
 
-* Proof for prime level only. For composite `N` the old space has more summands (`B_d` from all
-  `M · d ∣ N`), and the proof needs the adjoints of `B_d` and of the traces `Tr_{N/M}` for every
-  `M`, plus the general Atkin–Lehner operators; the same unfolding lemma handles each change of
-  variables, but it has not been done.
+* Composite `N`: every `B_d` from a level `M' < N` with `M' d ∣ N` factors through `B_1` or `B_p`
+  from level `N / p` for some prime `p ∣ N` (if `p ∣ d`, `B_d = B_p ∘ B_{d/p}`; otherwise
+  `M' d ∣ N / p` and `B_d = B_1 ∘ B_d`). `B_1` is adjoint to `Tr_{N/M}`, and
+  `B_p = (-√p)^(-k) W_N B_1 W_M` with `W_N` self-adjoint and `W_M` an involution, so orthogonality
+  to `B_p` is the condition `Tr_{N/M}(W_N f) = 0`. Only `W_N` and `W_M` are needed; the general
+  Atkin–Lehner `W_Q` (`Q ∥ N`) never appears, because Pilot D's `newSubspace` is defined with `W_N`.
 * The equivalence is stated with D's `CuspForm.newSubspace` and `CuspForm.oldSubspace` unchanged.
