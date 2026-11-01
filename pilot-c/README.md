@@ -52,11 +52,68 @@ p = 53 already needs about 7·10⁵ Dirichlet coefficients.
 Run with `pip install cypari2` and, from this folder, `python3 gross.py 11 37`,
 `python3 triple_run.py 37 300000`, `python3 whittaker.py`.
 
+## Milestone 2: SO(5)×SO(4) periods of Saito–Kurokawa forms (folder `so5/`)
+
+**Why this case.** A literature check showed that the tempered rank-2 period formulas we can
+reach are already theorems: Bessel periods (Furusawa–Morimoto), Yoshida lifts for SO(5)×SO(4)
+(Liu; Corbett), and the classical rank-1 cases. The open tempered cases, such as general-type Siegel
+forms against SO(4), need degree-16 L-functions that are out of reach here. So we took the
+*non-tempered* Saito–Kurokawa (SK) packet on the **definite** inner form. BZSV and the
+non-tempered Gan–Gross–Prasad conjecture predict which periods vanish and what L-value
+governs the rest. The L-values factor into GL2 pieces we can compute. The split-group
+analogue is a theorem: Ichino 2005, and arXiv:1804.02352 at squarefree level. In a quick search I
+found no published version on the definite form.
+
+**Setup.** O is a maximal order in the quaternion algebra ramified at {p, ∞}. The quinary lattice
+is L = ⟨1⟩ ⊕ (O, nrd), with SO(4) = SO(O, nrd) the stabiliser of the unit vector. We enumerate
+the genus classes of L and of (O, nrd) by Kneser 3-neighbours, and take Hecke eigenforms
+from the 3-, 5- and 7-neighbour operators. The quinary 3-neighbour eigenvalue is
+a₃(f) + 12 on SK(f) and 3a₃(g) + a₃(f) on Yoshida(g, f), and every quinary eigenform was sorted
+this way. The period is P(F, G) = Σ_{[L']} F(L')/|O(L')| · Σ_{v ∈ L', Q(v)=1, B(v,L') ⊆ 2Z} G([v^⊥]).
+The norms are ⟨F,F⟩ = Σ F²/|O(L')| and ⟨G,G⟩ = Σ G²/|O(M)|.
+
+**Empirical formula.** Take f a weight-4 newform of level p with root number ε_f, F the SK
+eigenform attached to f, and G the SO(4) eigenform attached to g⊗g with g a weight-2 newform
+of level p. Then
+
+  |P(F,G)|² / (⟨F,F⟩⟨G,G⟩) = 3/(8π³) · L(f × Sym²g, 3) / ( ‖f‖² · L(f, 3) · (p − ε_f) ),
+
+where ‖f‖² = ∫_{Γ0(p)\H} |f|² y² dx dy/y² and L-values are in arithmetic normalisation
+(centre 3 for f × Sym²g).
+
+| Prediction | Data | Outcome |
+|---|---|---|
+| S1: P = 0 when σ = g₁⊗g₂ with g₁ ≠ g₂ (σ not *relevant* to the SK parameter f ⊞ S₂ in non-tempered GGP), although L(f×g₁×g₂) ≠ 0 | 29 pairs at p = 23, 29, 31, 43 | **Matched**: all \|P\|² < 10⁻⁷³ |
+| S2: P = 0 for σ = Eis ⊗ g | 69 pairs | **Matched**: all zero |
+| S3: for σ = g⊗g, \|P\|² ∝ L(1/2, f × Sym²g)/(L(1, Ad f) L(3/2, f)), with the constant above | 88 (f, g) pairs over p = 11, 23, 29, 31, 37, 43; 58 with ε_f = +1, 30 with ε_f = −1 | **Matched**: every ratio equals 1 to within 2·10⁻¹¹ |
+
+Points worth noting:
+- The factor L(1/2, f) in L(1/2, ψ×σ) cancels against the same factor in L(1, Ad ψ) for
+  ψ = f ⊞ S₂. So the formula holds even when ε_f = −1 and L(f×g×g) vanishes identically, where
+  the naive "period² ∝ L(1/2, ψ×σ)" reading would wrongly predict P = 0.
+- The only dependence on p and on the packet is the factor 1/(p − ε_f). It is presumably the
+  local factor at p, since our lattice is not maximal at p, and both SK packet members appear.
+- The g-dependence cancels completely: no ‖g‖² or L(1, Ad g) term survives.
+- Not tested: σ = Eis ⊗ Eis (27 nonzero periods), and the Yoshida and "other" quinary forms.
+
+**Caveats.** This is a numerically discovered formula, not a proof. "Matched" means the BZSV and
+non-tempered GGP shape holds and a single constant fits all 88 cases. The constant 3/(8π³) and
+the factor (p − ε_f) depend on our measure and lattice normalisations. At p = 43, building
+L(f × Sym²g) directly from its Euler product failed the functional-equation check for the
+quadratic-field form g, for a reason I have not found. Those 30 values were instead obtained as
+L(f×g×g, 3)/L(f, 2), or as the ratio of first derivatives when ε_f = −1, from the triple-product
+L-function, which passes its check (to 10⁻³³ or better). For rational g at 43 the two routes agree.
+
+Reproduce from `so5/`: `python3 so5run.py <p>` (genera, Hecke matrices, perp counts), `python3 analyse.py <p>`
+(eigenforms, periods), `python3 fvals.py 11 23 29 31 37 43`, `python3 sym2.py <p> 150000`, and
+`python3 fix43.py` for p = 43. Results: `so5/results/so5_summary.json`.
+
 ## Next steps
 
 1. Translate the classical constants 8π² and 2⁷π⁵/p into BZSV's normalization (Tamagawa
    measures and the local unramified factors) and check the ramified local factor at p
    against their local conjecture.
-2. Point the pipeline at a case with no published formula, for example a BZSV example
-   with G of rank 2 whose period is not one of the classical Rankin–Selberg, Gan–Gross–Prasad
-   or Waldspurger families.
+2. Have an expert check whether the SO(5)×SO(4) formula above is already in the literature, and
+   derive the local factor (p − ε_f) at p from the non-maximal lattice.
+3. Extend to the maximal quinary lattice (paramodular level), the Eis ⊗ Eis periods, and the
+   general-type forms that appear from p = 61 on.
