@@ -1,0 +1,6 @@
+{'q': 3, 'cases': 24, 'functional_equation_ok': 18, 'fe_fail': 6, 'classes': 4, 'classes_with_one_X': 4}
+FE failures by class: {(('Stxchi', 'sc4', 'sc4'), -1, (1, 0, -9)): 6}
+(('Stxchi', 'Stxchi', 'Stxchi'), -1) cases 6 I!=0 0 I=0&L=0 6 I=0&L!=0 0 X []
+(('Stxchi', 'Stxchi', 'sc4'), 1) cases 6 I!=0 6 I=0&L=0 0 I=0&L!=0 0 X ['1/36']
+(('Stxchi', 'sc4', 'sc4'), -1) cases 6 I!=0 0 I=0&L=0 0 I=0&L!=0 6 X []
+(('sc4', 'sc4', 'sc4'), 1) cases 6 I!=0 6 I=0&L=0 0 I=0&L!=0 0 X ['1/108']
