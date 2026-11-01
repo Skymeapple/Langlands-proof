@@ -99,3 +99,36 @@ At z = 1 this says the Hecke period equals the central value L(E^D, 1/q) up to �
 * Matching is on finitely many places (deg ≤ 4 for q = 3, deg ≤ 3 for q = 5). That two Hecke
   eigensystems agreeing at these places agree everywhere is a theorem (strong multiplicity one with
   explicit bounds), not something checked here.
+
+## Round 3: triple product period, and the SO(5) question
+
+### SO(5) × SO(4) (Saito–Kurokawa) over F_q(t): stalled, with a structural reason
+
+Over Q, Pilot C uses the definite SO(5) of the lattice ⟨1⟩ ⊕ (O, nrd). Over F_q(t) there is no
+such group. Every quadratic form of dimension ≥ 5 over the local field F_q((1/t)) is isotropic, so
+SO(5) is never compact at ∞, and the finite class-set method has no analogue. A real analogue needs
+automorphic forms on SO(5) acting on its Bruhat–Tits tree at ∞ (the ∞-rank is 1), including cusps,
+plus the non-tempered Saito–Kurokawa packet at ∞. That is a separate build and is not attempted here.
+
+### Triple product (GGP for SO(3) ⊂ SO(4), Ichino): checked by computation
+
+`triple.py`, `check_triple.py`. Take three rational newforms f1, f2, f3 of one level n = P·M,
+deg n = 3, with Brandt eigenvectors on the definite algebra ramified at {P, ∞} (Eichler level M).
+Set I = Σ_x f1(x) f2(x) f3(x) / #Stab_x. The L-function L(f1 × f2 × f3, T) is the Euler product
+of the triple tensor of the three curves' Frobenius modules. At the bad places, with all three
+Steinberg and ε_v = a1 a2 a3, the factor is (1 − ε_v T^d)^{-1} (1 − ε_v q^d T^d)^{-2}. It
+terminates at degree ≤ 4, which was checked through degree 5 over F_3(t). The centre is T = q^{-2}.
+
+For squarefree n:
+
+* If ε_P = +1 and ε_ℓ = −1 for every ℓ | M (the local signs that allow a period on this B), then
+  L(f1×f2×f3, q^{-2}) · Π ⟨f_i, f_i⟩_D = I² · Π ‖f_i‖²_Pet / (2^{ω(M)} q^4).
+  This holds in 33 of 33 cases (9 over F_3(t), 24 over F_5(t)), 4 of them with L = 0 and I = 0.
+* For every other sign pattern, I = 0. That is 116 of 116 cases, and in 104 of them L ≠ 0.
+  This is Prasad's dichotomy: the period then lives on a different quaternion algebra.
+
+The constant 2^{ω(M)} q^4 is empirical. Levels with M = ℓ² (424 cases) are not covered, because
+the local factor at ℓ is not determined there.
+
+    python3 triple.py 3 data/match_q3.json data/triple_q3.json 5; python3 check_triple.py data/triple_q3.json 3
+    python3 triple.py 5 data/match_q5.json data/triple_q5.json 4; python3 check_triple.py data/triple_q5.json 5
