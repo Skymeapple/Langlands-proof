@@ -12,7 +12,9 @@ Everything here is reproducible with `pip install cypari2 passagemath-gap` (PARI
 | Maximal subgroups of GSp4(F3) and the invariants their elements can have | `maxsub2.g` (GAP) | `maxsub2.txt` |
 | Enumerate models y^2 + h y = f, h in {0,1}[x]_{<=3}, f coefficients in [-B,B], one per isogeny-class fingerprint | `enumerate.py B NMAX` | `classes_B1.jsonl`, `classes_B2*.jsonl` |
 | Tag each class | `classify.py in out` | `tagged_*.jsonl` |
-| Inventory table and statistics | `summarize.py tagged...` | `inventory.csv`, `summary.json` |
+| Inventory table and statistics (deduped by isogeny fingerprint) | `summarize.py tagged...` | `data/inventory.csv`, `data/summary.json` |
+| Unramified-at-2 test for semistable bad reduction (monodromy mod 3) | `semistable2.py` | none upgraded in this sample |
+| Galois-side data for the conductor 349 target | `target349.py` | `data/target349.json` |
 | Quadratic twists of Theorem A curves, with certificates | `twist_settle.py` | `twist_certs_*.json` |
 | Independent re-check of every certificate | `verify_certificate.py certs.json` | `twist_verify_*.log` |
 
@@ -58,3 +60,18 @@ from the ramified character, so Theorem A does not apply to D. But Jac(D) = Jac(
 modular. `twist_certs_B1.json` holds 4613 such curves (95 with conductor at most 10^6). Each one is
 re-verified from scratch by `verify_certificate.py`. None of the 95 has minimal discriminant at most
 10^6, so none of them is in the LMFDB genus 2 table.
+
+## Current numbers (heights 1 and 2, conductor known and at most 10^6)
+
+14,997 isogeny classes: Theorem A 3,330; Theorem A via a natural quadratic twist 3; Faltings-Serre 2;
+heuristically non-typical 144; open 11,518. Most open classes fail one local condition: bad at 3 (3,808),
+bad at 2 (1,675), non-ordinary at 3 (1,571), excluded Frob_2 polynomial (875).
+
+## Next hard target: conductor 349
+
+Poor-Yuen found a nonlift weight 2 paramodular form of level K(349). The surface has mod 2 image S5 with
+quintic field of discriminant 2^4 * 349, the same residual type as 277 (proved by BPPTVY). Theorem A fails only
+because Frob_2 mod 3 has char poly (x^2 + x + 2)^2. A Faltings-Serre proof along BPPTVY's lines needs the
+Hecke eigenvalues of that form at primes up to roughly 43 (for 277 it was p <= 43). We could not find those
+eigenvalues published, and LMFDB pages are behind a browser check from this environment.
+`data/target349.json` has the Euler factors they must match.
