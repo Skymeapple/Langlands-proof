@@ -60,3 +60,24 @@ q-expansion of the twist. All of these are missing from Mathlib, and this is the
 - H6 (model independence of a_ℓ), which makes `IsModular` usable for any equation.
 - H2(a) twists: start by formalising quadratic twists of q-expansions and the point-count identity
   a_p(E^d) = χ_d(p) a_p(E); the cusp-form side is the bottleneck.
+
+## 4. Milestone 3 plan: prove `TwistStatement` (twisting weight-2 eigenforms)
+
+Mathlib hooks found at `db584cd6`: `CuspForm.translate` (f ∣ g is a cusp form for g⁻¹Γg), `IsCusp.of_isFiniteRelIndex`
+and `Subgroup.Commensurable.isCusp_iff` (cusps under passage to finite-index subgroups), `UpperHalfPlane.hasSum_qExpansion`
+and `qExpansion_coeff`, `DirichletCharacter.gaussSum` and `gaussSum_mulShift` (Gauss sums of primitive characters).
+
+Work breakdown, from the bottom up:
+1. **Kronecker character.** A primitive real Dirichlet character χ_D of conductor |D| (D the discriminant of ℚ(√d)) with
+   χ_D(p) = (d/p) for odd p ∤ d. Built from `jacobiSym` and `ZMod.χ₄`, `χ₈`; primitivity is the delicate part.
+2. **Restriction.** `CuspForm Γ k → CuspForm Γ' k` for Γ' ≤ Γ of finite index (cusp conditions transfer by
+   `IsCusp.mono` in reverse via commensurability).
+3. **Twist operator.** f_χ := g(χ̄)⁻¹ Σ_{a mod D} χ̄(a) · f ∣ [[1, a/D], [0, 1]]. Holomorphy and cusp vanishing come
+   from `CuspForm.translate` plus (2). The real work is invariance under Γ₀(N D²): for γ ∈ Γ₀(N D²),
+   T_a γ = γ' T_{a δ²} with γ' ∈ Γ₀(N), so γ permutes the translates and χ̄(a δ²) = χ̄(a) because χ² is trivial.
+4. **q-expansion.** The coefficients of f_χ are χ(n) aₙ, from the Gauss sum identity Σ_a χ̄(a) e(na/D) = χ(n) g(χ̄)
+   (χ primitive) and uniqueness of q-expansions.
+5. **Eigenform axioms.** `IsNormalizedEigenform` for f_χ follows from χ(n)aₙ by algebra: multiplicativity, the Hecke
+   recursion with χ(p)² = 1 for p ∤ N D, and both sides 0 or the recursion of f for p ∣ N D.
+
+Estimate: 1,500 to 3,000 lines of Lean. Step 3 is the main risk.
