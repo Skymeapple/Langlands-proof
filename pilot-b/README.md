@@ -75,3 +75,12 @@ because Frob_2 mod 3 has char poly (x^2 + x + 2)^2. A Faltings-Serre proof along
 Hecke eigenvalues of that form at primes up to roughly 43 (for 277 it was p <= 43). We could not find those
 eigenvalues published, and LMFDB pages are behind a browser check from this environment.
 `data/target349.json` has the Euler factors they must match.
+
+## Round 3: the 365 open classes without a certified mod 3 image
+
+`recert_mod3.py` (exact GAP + 3-rank test, primes up to 3000) and `reducibility_check.py` (char polys mod 3, primes < 1000).
+Results in `data/round3_mod3.json`:
+
+* None of the 365 becomes certified surjective, so none moves to Theorem A. The exact rerun with primes up to 3000 was done on 31 classes (stopped there: about 3 hours for all 365); all 31 stay inside the Klingen parabolic.
+* 349 classes have every Frobenius char poly mod 3 compatible with both parabolics (a root in F3 and a split into quadratics). This is consistent with a reducible mod 3 image, like 277 (rational 15-torsion), but it is not a proof of reducibility. BCGP's introduction says the residual images their method allows are all absolutely irreducible.
+* 16 classes are exactly excluded from the Klingen parabolic (and 6 also from the Siegel one), so their image may be irreducible inside SL(2,9):(C2 x C2) or (Q8 x Q8):(S3 x S3). Five of them (conductors 20923, 43771, 45125, 77803, 180625) satisfy every other Theorem A hypothesis. Whether they are covered depends only on BCGP Lemma 6.4.3, which we could not read.

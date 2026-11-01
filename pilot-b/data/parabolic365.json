@@ -1,0 +1,1827 @@
+[
+{
+"N": 713,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 745,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 862,
+"curve": "y^2 + (x^3 + x^2)*y = -2*x^5 + 2*x^4 + x^3 - 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 975,
+"curve": "y^2 + (x^3 + 1)*y = x^5 - 2*x^3 + 2*x^2 - x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 997,
+"curve": "y^2 + (1)*y = -x^5 - 2*x^4 - 2*x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 1038,
+"curve": "y^2 + (x^3 + 1)*y = x^6 - x^5 + 2*x^4 - x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 1042,
+"curve": "y^2 + (x^2 + 1)*y = 2*x^6 + 2*x^5 - x^4 - x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 1055,
+"curve": "y^2 + (x^3 + 1)*y = -x^6 + x^5 + x^4 - x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 1137,
+"curve": "y^2 + (x^2 + x + 1)*y = x^5 + x^4 + x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 1239,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 1269,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^5 + x^4",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 1473,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^2 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 1695,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 + x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 1746,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 + 2*x^2 + x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 1813,
+"curve": "y^2 + (x^3)*y = -x^5 + x^4 - 2*x^3 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 1854,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 + x^3 - 2*x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 1863,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 + x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 2031,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 2059,
+"curve": "y^2 + (1)*y = x^5 + x^4 - 2*x^3 - 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 2341,
+"curve": "y^2 + (x^3)*y = -x^6 + x^5 - 2*x^3 + 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 2575,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 - x^3 + x^2 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 2634,
+"curve": "y^2 + (x^3 + x^2)*y = -x^6 + x^5 - 2*x^4 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 2650,
+"curve": "y^2 + (x^3 + x^2)*y = -x^5 + x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 2673,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 - x^4 - 2*x^3 - 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 2675,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - 2*x^4 + x^3 + 2*x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 2697,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 + x^3 - x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 2725,
+"curve": "y^2 + (x^3)*y = -x^5 + x^4 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 2862,
+"curve": "y^2 + (x^3 + 1)*y = x^5 + x^4 + x^3 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 2873,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + 2*x^4 - x^3 + 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 2891,
+"curve": "y^2 + (1)*y = -x^5 - 2*x^4 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 2985,
+"curve": "y^2 + (1)*y = -x^5 + x^4 + 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 3107,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -2*x^6 + 2*x^5 + 2*x^3 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 3237,
+"curve": "y^2 + (x^3 + 1)*y = -x^5 + 2*x^3 - x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 3245,
+"curve": "y^2 + (x^3 + 1)*y = -x^6 - x^5 + x^4 - x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 3381,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^6 - x^5 + x^4 - 2*x^2 - 2*x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 3483,
+"curve": "y^2 + (x^3)*y = x^5 + x^4 + 2*x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 3709,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 3726,
+"curve": "y^2 + (x^3 + x^2)*y = -x^5 + x^4 - 2*x^3 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 3950,
+"curve": "y^2 + (x^2 + 1)*y = x^6 - x^5 - x^4",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 3950,
+"curve": "y^2 + (x^3 + x^2 + x)*y = x^5 + x^4 - x^3 - 2*x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 4025,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + x^4 - 2*x^3 - 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 4185,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 4329,
+"curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 + x^5 - 2*x^4 + 2*x^3 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 4330,
+"curve": "y^2 + (x^2 + x)*y = x^5 + x^4 + x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 4617,
+"curve": "y^2 + (x^3 + x^2 + x)*y = x^6 - x^5 - x^4 + 2*x^3 - 2*x^2 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 4671,
+"curve": "y^2 + (1)*y = -x^5 - 2*x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 4698,
+"curve": "y^2 + (x^3 + x)*y = -x^5 + 2*x^4 - 2*x^3 + x^2 - 2*x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 4749,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 + x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 4857,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 + 2*x^3 + 2*x^2 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 4925,
+"curve": "y^2 + (1)*y = x^6 + x^5 - x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 4949,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 - x^3 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 5043,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 - 2*x^4 - x^3 - x^2 - x",
+"parabolic_test": "plane-compatible"
+},
+{
+"N": 5046,
+"curve": "y^2 + (x^2)*y = -x^6 - x^5 - x^4 - 2*x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 5125,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + x^4",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 5497,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 5497,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - 2*x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 5535,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 - 2*x^5 + 2*x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 5659,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 - x^3 - 2*x^2 + 2*x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 5819,
+"curve": "y^2 + (1)*y = x^6 - x^5 + 2*x^4 - x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 5865,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^3 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 5939,
+"curve": "y^2 + (x^3 + x + 1)*y = -x^5 + x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 6050,
+"curve": "y^2 + (x^3 + x^2 + x)*y = x^5 + x^4 + 2*x^3 + 2*x^2 + x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 6199,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 6342,
+"curve": "y^2 + (x^3 + x^2)*y = 2*x^6 - 2*x^5 - x^3 + 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 6441,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 + x^5 - x^4 + 2*x^3 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 6615,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^4 + 2*x^3 + x^2 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 6713,
+"curve": "y^2 + (x^3 + x^2 + x)*y = x^6 - 2*x^5 - 2*x^4 + 2*x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 6843,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 + x^3 + x^2 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 6964,
+"curve": "y^2 + (x^2 + x)*y = 2*x^6 + 2*x^4 - 2*x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 7161,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 7447,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - 2*x^4 + x^2 - x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 7629,
+"curve": "y^2 + (x^3)*y = -x^5 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 7657,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - x^5 - x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 7831,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - x^5 - 2*x^4 - 2*x^3 - 2*x^2 - x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 8019,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 - 2*x^5 - x^4 + 2*x^3 - 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 8073,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 - x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 8251,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 - x^3 - 2*x^2 - 2*x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 8335,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 8441,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 - x^3 + x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 8549,
+"curve": "y^2 + (x^3)*y = x^6 - 2*x^5 + 2*x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 8586,
+"curve": "y^2 + (x^2)*y = -x^6 + x^5 + x^4 - x^3 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 8657,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 - x^3 + x^2 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 9161,
+"curve": "y^2 + (x^3 + x + 1)*y = x^6 + x^5 + x^4 + x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 10081,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 + x^4 - 2*x^3 + 2*x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 10449,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + 2*x^4 - x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 10913,
+"curve": "y^2 + (x^3 + 1)*y = x^6 - 2*x^5 - 2*x^4 + 2*x^3 + 2*x^2 - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 10935,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + 2*x^4 - x^3 - 2*x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 10985,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 - 2*x^4 + 2*x^3 + x^2 - 2*x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 11275,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 + x^3 - 2*x^2 + 2*x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 11455,
+"curve": "y^2 + (x^3 + x + 1)*y = x^6 - x^4 + x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 11537,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^3 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 11809,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^3 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 12025,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 - x^3 + 2*x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 12050,
+"curve": "y^2 + (x^2)*y = x^6 - x^5 - x^4 + 2*x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 12393,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 - 2*x^5 + 2*x^4 - x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 12489,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 + x^4 + 2*x^3 + 2*x^2 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 12500,
+"curve": "y^2 + (x^3 + 1)*y = x^6 + 2*x^3 - x",
+"parabolic_test": "neither parabolic"
+},
+{
+"N": 12501,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 - x^3 - 2*x^2 + x - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 13734,
+"curve": "y^2 + (x^2 + x)*y = x^6 + x^5 + 2*x^3 + x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 13821,
+"curve": "y^2 + (x^3)*y = -x^6 - x^5 - x^4 - 2*x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 14065,
+"curve": "y^2 + (x^3 + 1)*y = x^6 - x^5 + x^4 - x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 14363,
+"curve": "y^2 + (x^3)*y = x^6 + 2*x^5 - x^4 + 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 14534,
+"curve": "y^2 + (x^3 + x^2)*y = x^6 - 2*x^5 + x^4 + x^3 - 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 14705,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 14806,
+"curve": "y^2 + (x^2)*y = -x^6 + x^5 - x^4 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 14825,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + x^4 - x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 15065,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^3 - 2*x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 15225,
+"curve": "y^2 + (x^3 + x + 1)*y = -x^6 + x^5 + x^4 + x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 15433,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 - 2*x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 15525,
+"curve": "y^2 + (x^3 + x + 1)*y = x^6 - x^4 + x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 15645,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 + x^5 - 2*x^4 - x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 15795,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 + x^3 + x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 15876,
+"curve": "y^2 + (x^3 + 1)*y = -x^5 + x^3 - 1",
+"parabolic_test": "plane-compatible"
+},
+{
+"N": 16023,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 + x^2 + x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 16310,
+"curve": "y^2 + (x^2)*y = 2*x^6 - 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 16335,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 + 2*x^4 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 16725,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 - x^4 - x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 16902,
+"curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 + x^5 + x^4 + 2*x^3 + 2*x^2 + x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 17061,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^6 - x^5 - 2*x^4 + 2*x^3 + x^2 - 2*x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 17225,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^4 + x^3 + x^2 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 17510,
+"curve": "y^2 + (x^2 + 1)*y = -x^6 + x^5 - x^4 - 2*x^3 + 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 17525,
+"curve": "y^2 + (1)*y = x^5 - x^4 - 2*x^3 + 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 17577,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 - x^3 - 2*x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 17593,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 - x^5 - x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 17741,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^5 + 2*x^4 + x^3 - 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 18231,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 + 2*x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 18277,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^5 + 2*x^4 - x^3 - 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 18369,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - 2*x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 18567,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 - 2*x^5 - 2*x^4 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 18889,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 - x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 19385,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 - x^4 - x^3 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 19491,
+"curve": "y^2 + (x^3)*y = -x^5 + 2*x^4 - 2*x^3 + 2*x^2 - x + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 19845,
+"curve": "y^2 + (x^3)*y = x^5 + x^4 - x^3 - x^2 - x",
+"parabolic_test": "plane-compatible"
+},
+{
+"N": 19942,
+"curve": "y^2 + (x^2 + 1)*y = -2*x^6 + 2*x^5 + x^4 - x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 20707,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 + x^4 - 2*x^3 + 2*x^2 - 2*x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 20923,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 - 2*x^4 - 1",
+"parabolic_test": "plane-compatible"
+},
+{
+"N": 21049,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 + x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 21087,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 - 2*x^3 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 21114,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -2*x^5 + x^4 + x^3 + 2*x^2 - x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 21402,
+"curve": "y^2 + (x^3 + 1)*y = -x^5 - x^4 - x^3 - 2*x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 21511,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^4 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 21545,
+"curve": "y^2 + (x^3 + x + 1)*y = x^6 + x^4 + x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 21879,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 - 2*x^5 - 2*x^4 - 2*x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 24361,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^5 + x^4 - x^3 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 24433,
+"curve": "y^2 + (x^3 + 1)*y = x^6 + x^5 + x^4 - x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 25433,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 - x^5 - x^4 + x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 26125,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 - 2*x^3 + 2*x^2 + 2*x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 26446,
+"curve": "y^2 + (x^3 + x^2)*y = -x^6 - x^5 + x^4 - x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 26953,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^4 + 2*x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 26973,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + 2*x^4 - 2*x^3 - 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 27110,
+"curve": "y^2 + (x^3 + x^2)*y = x^6 + x^5 + 2*x^3 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 27378,
+"curve": "y^2 + (x^2)*y = 2*x^6 + 2*x^5 + x^4 - x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 27378,
+"curve": "y^2 + (x^3 + 1)*y = x^5 - x^4 - x^3 - 2*x^2 - x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 27530,
+"curve": "y^2 + (x^3 + 1)*y = x^6 + x^5 - x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 28630,
+"curve": "y^2 + (x^2)*y = 2*x^5 + 2*x^4 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 29295,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 + x^5 - x^3 - 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 30025,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 - x^3 + x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 30075,
+"curve": "y^2 + (x^3 + x^2 + x)*y = x^6 + x^5 - x^4 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 31125,
+"curve": "y^2 + (x^3 + x^2 + x)*y = x^6 + 2*x^5 - 2*x^4 - 2*x^3 + 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 31347,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 - x^4 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 31725,
+"curve": "y^2 + (x^3)*y = 2*x^6 - x^5 - x^4 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 31985,
+"curve": "y^2 + (x^3 + 1)*y = x^6 + x^4 - x^3 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 32849,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 + x^4 - 2*x^3 + 2*x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 33271,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = -2*x^5 + x^4 + x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 35819,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 - 2*x^4 + 2*x^3 + 2*x^2 - x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 35969,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - 2*x^3 + x^2 - x + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 36425,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + x^4 + x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 36750,
+"curve": "y^2 + (x^3 + x^2)*y = -x^6 + x^5 + 2*x^3 + x^2 - x + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 36837,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^6 + x^5 + x^4 - 2*x^2 - 2*x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 37450,
+"curve": "y^2 + (x^2 + x)*y = x^6 - x^5 + x^3 - x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 37611,
+"curve": "y^2 + (x^3)*y = x^6 + 2*x^5 - 2*x^4 - 2*x^3 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 38007,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + 2*x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 38385,
+"curve": "y^2 + (x^3 + x + 1)*y = x^5 + x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 38563,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + x^4 - 2*x^3 + 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 39690,
+"curve": "y^2 + (x^3 + x)*y = -x^6 - 2*x^4 + 2*x^3 + 2*x^2 - x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 40565,
+"curve": "y^2 + (x^3)*y = x^6 + x^4 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 41049,
+"curve": "y^2 + (x^2 + x + 1)*y = x^6 + 2*x^5 + 2*x^4 + 2*x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 41121,
+"curve": "y^2 + (x^3 + x + 1)*y = -x^6 + x^4 + x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 41273,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 + x^2 + x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 41823,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - 2*x^4 - 2*x^3 - 2*x - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 41925,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 + x^5 - x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 43771,
+"curve": "y^2 + (x^3)*y = -x^6 + 2*x^5 - 2*x^4 + 2*x^2 - x",
+"parabolic_test": "plane-compatible"
+},
+{
+"N": 44409,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^4 + x^3 - x^2 - 2*x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 45125,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^6 + 2*x^5 - x^3",
+"parabolic_test": "plane-compatible"
+},
+{
+"N": 45630,
+"curve": "y^2 + (x^3 + x)*y = -x^6 - x^5 - x^4 + x^3 - x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 45927,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + 2*x^4 - x^3 + x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 47385,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 + 2*x^4 - x^3 - 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 47385,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 + 2*x^4 - x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 47979,
+"curve": "y^2 + (x^3)*y = -x^5 - x^4 - x^3 - x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 52245,
+"curve": "y^2 + (x^3)*y = 2*x^6 + x^5 - 2*x^4 + 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 52969,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - x^4 - x^2 - 2*x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 53001,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 - 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 53403,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 - 2*x^5 - 2*x^4 + 2*x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 53742,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 - x^3 + 2*x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 54675,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 - x^4 - x^3 - 2*x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 55827,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + x^4 - x^3 - x^2 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 56950,
+"curve": "y^2 + (x^2 + x)*y = -x^6 - 2*x^4 - x^3 - 2*x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 57753,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 + x^3 + x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 58617,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - 2*x^3 - 2*x^2 + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 58905,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 - 2*x^5 - 2*x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 59193,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 + x^5 - 2*x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 59481,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^3 + x^2 + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 59977,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^4 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 60345,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 - 2*x^3 - 2*x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 60497,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^2 + x + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 61150,
+"curve": "y^2 + (x^2)*y = -x^6 + x^5 - 2*x^4 - x^3 - x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 61398,
+"curve": "y^2 + (x^2 + 1)*y = -2*x^6 - x^4 - x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 62309,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - x^4 + x^3 - 2*x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 63147,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 - 2*x^5 - x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 64081,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - 2*x^4 + x^3 + 2*x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 64289,
+"curve": "y^2 + (x^3 + 1)*y = x^6 - x^5 + 2*x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 64729,
+"curve": "y^2 + (x^3 + x^2 + x)*y = x^6 + x^5 - 2*x^4 - 2*x^3 - x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 64735,
+"curve": "y^2 + (x^3)*y = -x^6 - 2*x^5 + 2*x^3 - x^2 - x + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 64977,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -2*x^6 + x^5 - 2*x^4 - 2*x^3 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 68489,
+"curve": "y^2 + (x^3 + x^2 + x)*y = x^6 + x^5 + x^4 + x^3 - x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 69121,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 - x^3 + x^2 + x + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 69482,
+"curve": "y^2 + (x^2 + x)*y = x^6 - x^4 + x^3 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 71519,
+"curve": "y^2 + (x^3 + 1)*y = -x^6 + 2*x^5 - 2*x^4 + 2*x^3 - 2*x^2 - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 71850,
+"curve": "y^2 + (x^2)*y = 2*x^6 - 2*x^5 - 2*x^4 + 2*x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 72089,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 - 2*x^5 + x^4 + 2*x^3 + 2*x^2 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 73905,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 + x^4 + 2*x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 76113,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^3 - 2*x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 76383,
+"curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 - 2*x^5 + 2*x^4 + x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 76518,
+"curve": "y^2 + (x^2 + x)*y = x^5 - x^4 - x^3 - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 77202,
+"curve": "y^2 + (x^3 + x^2)*y = x^6 - 2*x^5 + x^4 - 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 77452,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - 2*x^4 + 2*x^3 + x^2 - 2*x + 1",
+"parabolic_test": "plane-compatible"
+},
+{
+"N": 77803,
+"curve": "y^2 + (x^3)*y = x^6 - x^5 - 2*x^4 - x^2 - x",
+"parabolic_test": "plane-compatible"
+},
+{
+"N": 77841,
+"curve": "y^2 + (x^2 + 1)*y = x^6 - x^4 - x^3 - 2*x^2",
+"parabolic_test": "neither parabolic"
+},
+{
+"N": 78121,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 + 2*x^3 - 2*x^2 + x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 80919,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 84753,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^3 + x^2 + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 85345,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + 2*x^4 + 2*x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 89550,
+"curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 + x^5 + x^4 - x^3 - 2*x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 89782,
+"curve": "y^2 + (x^3 + x^2)*y = x^6 + x^5 - x^4 - x^3 - 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 95951,
+"curve": "y^2 + (x^3 + x^2 + x)*y = x^5 + x^4 - 2*x^3 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 96117,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 - x^5 + x^4 + x^3 - x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 97947,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + 2*x^3 + 2*x^2 + 2*x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 98425,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^4 - 2*x^3 + 2*x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 100017,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 + x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 100481,
+"curve": "y^2 + (x^3 + 1)*y = x^6 + x^5 + 2*x^4 + x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 103743,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 + x^4 + x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 103750,
+"curve": "y^2 + (x^2)*y = 2*x^6 + x^4 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 104091,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + 2*x^4 - 2*x^3 + x^2 + x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 105705,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 - x^4 - 2*x^3 - 2*x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 105705,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + 2*x^4 - x^3 + x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 105794,
+"curve": "y^2 + (x^3 + x^2)*y = x^6 + x^5 + 2*x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 105843,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 - 2*x^4 - x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 106977,
+"curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 + 2*x^5 + 2*x^4 - x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 107649,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 - 2*x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 108567,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 + 2*x^3 - 2*x^2 - 2*x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 113155,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^4 - 2*x^3 + x^2 - 2*x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 113645,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 + x^3 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 114686,
+"curve": "y^2 + (x^3 + x)*y = -x^6 + 2*x^5 - x^4 - x^3 + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 119617,
+"curve": "y^2 + (x^3 + x^2 + x)*y = x^5 + x^4 - 2*x^3 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 124950,
+"curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 - x^5 + x^3 - 2*x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 135267,
+"curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 - 2*x^5 + x^4 + 2*x^3 - x^2 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 137781,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 - x^4 - x^3 + x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 138666,
+"curve": "y^2 + (x^3 + x^2 + x)*y = x^6 + x^5 + x^4 - x^3 - 2*x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 140391,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 - 2*x^4 - 2*x^3 + x^2 - 2*x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 141003,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^5 + x^4 + x^3 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 141395,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 - x^5 - 2*x^4 - 2*x^3 - x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 143634,
+"curve": "y^2 + (x^3 + x)*y = -x^6 - x^4 + x^3 - 2*x - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 143829,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 - 2*x^5 - 2*x^4 + x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 146853,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^5 - x^4 + 2*x^3 - 2*x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 147150,
+"curve": "y^2 + (x^3 + x)*y = x^6 + 2*x^4 - x^3 + 2*x^2 - 2*x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 147303,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 - x^4 + 2*x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 148250,
+"curve": "y^2 + (x^3 + x^2)*y = x^5 - x^4 - x^3 + 2*x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 150993,
+"curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 - 2*x^5 + x^4 - x^3 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 152943,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 + x^4 - x^3 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 154221,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 + 2*x^4 - x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 157157,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - x^5 - x^4 - x^3 - 2*x^2 - 2*x - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 158355,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 - x^4 - 2*x^3 - 2*x^2 + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 160377,
+"curve": "y^2 + (x^3 + x + 1)*y = -x^6 + 2*x^4 + 2*x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 160445,
+"curve": "y^2 + (x^3 + x + 1)*y = -x^6 + x^5 + 2*x^3 + 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 163371,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 - 2*x^4 + 2*x^3 - x^2 + x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 169670,
+"curve": "y^2 + (x^3 + x^2 + x)*y = x^6 - x^3 + 2*x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 171369,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 - x^3 + x^2 + x - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 180625,
+"curve": "y^2 + (x^3)*y = -x^5 - x - 1",
+"parabolic_test": "neither parabolic"
+},
+{
+"N": 181675,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 + x^4 + 2*x^3 + 2*x^2 - 2*x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 183897,
+"curve": "y^2 + (x^3)*y = 2*x^5 + x^4 + x^3 - 2*x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 191673,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + 2*x^5 - 2*x^4 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 192375,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 - 2*x^4 - x^3 - x^2 + 2*x - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 193347,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 - 2*x^3 + x^2 + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 193575,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^6 + 2*x^4 - 2*x^3 - 2*x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 202833,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 + x^3 + x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 207819,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 - 2*x^5 + x^4 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 211511,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^4 + 2*x^3 + 2*x^2 + x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 211775,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + x^4 + x^3 - x^2 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 217503,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^4 + 2*x^3 - x^2 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 217737,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 - 2*x^3 + 2*x^2 + 2*x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 222939,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 + 2*x^3 + x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 230121,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 + x^5 - 2*x^3 - x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 239683,
+"curve": "y^2 + (x^3)*y = -2*x^6 - x^5 - x^4 + 2*x^3 - x^2 - x - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 243243,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^6 + x^5 - x^3 + x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 247050,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 + x^5 - x^4 + 2*x^2 - 2*x - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 252363,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + 2*x^4 - x^3 - 2*x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 253125,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 + 2*x^3 + 2*x^2 + 2*x + 2",
+"parabolic_test": "neither parabolic"
+},
+{
+"N": 256473,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 - x^4 + 2*x^3 + 2*x^2 - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 264825,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 + x^3 - 2*x^2 + 2*x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 267050,
+"curve": "y^2 + (x^2 + x)*y = x^6 + 2*x^4 - 2*x^3 - 2*x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 277749,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + 2*x^4 + 2*x^3 + x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 289575,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + 2*x^5 - 2*x^4 + x^3 + 2*x^2 - x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 296089,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^4 + 2*x^3 + 2*x^2 + x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 296703,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 - x^4 - 2*x^3 + x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 299700,
+"curve": "y^2 + (x^3 + 1)*y = x^6 + x^5 + x^4 + x^3 - x^2 - x",
+"parabolic_test": "plane-compatible"
+},
+{
+"N": 301455,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^3 - 2*x^2 + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 309155,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^6 - x^3 - 2*x^2 - 2*x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 311003,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 - x^3 + 2*x^2 - 2*x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 313290,
+"curve": "y^2 + (x^3 + x)*y = x^6 - x^4 + x^3 - 2*x^2 - 2*x + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 321849,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^2 + x - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 322335,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 + x^5 - 2*x^3 - x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 322947,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^6 + x^5 + 2*x^4 - 2*x^3 - 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 334611,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + 2*x^4 + 2*x^3 - 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 339615,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 + 2*x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 344151,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + x^4 + 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 352107,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 - x^3 + x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 366825,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 - 2*x^4 + 2*x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 369558,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 + x^5 + x^4 - x^3 - 2*x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 370989,
+"curve": "y^2 + (x^3 + x + 1)*y = -x^5 + x^4 + 2*x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 379161,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^6 + 2*x^5 - x^4 + 2*x^3 - 2*x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 410059,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 + 2*x^5 + 2*x^4 - 2*x^3 + 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 417663,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + 2*x^3 - 2*x^2 + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 419061,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 - 2*x^5 + 2*x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 420579,
+"curve": "y^2 + (x^3)*y = -2*x^6 - x^5 + 2*x^4 + x^3 + 2*x^2 - x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 420843,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 + x^5 + 2*x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 422500,
+"curve": "y^2 + (x^3 + 1)*y = x^6 - x^5 + 2*x^3",
+"parabolic_test": "neither parabolic"
+},
+{
+"N": 423009,
+"curve": "y^2 + (x^3 + x + 1)*y = 2*x^6 + x^4 + 2*x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 429875,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + x^4 - x^3 + 2*x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 430625,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 - x^5 - 2*x^4 - x^3 - 2*x^2 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 438129,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 - x^4 - 2*x^3 - 2*x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 439587,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + 2*x^4 + 2*x^3 + x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 445257,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 + x^5 - x^4 - 2*x^3 + x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 488373,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 - 2*x^4 + x^3 - x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 497457,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 - 2*x^5 + x^4 + x^3 - x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 498025,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 + 2*x^3 - 2*x^2 - 2*x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 498173,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^6 + x^5 + x^4 + 2*x^3 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 521433,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 + x^3 - x^2 - x - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 535275,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 - 2*x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 536553,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - 2*x^3 + x^2 - x - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 564975,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 - x^4 - 2*x^3 + x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 566293,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 + x^2 - 2*x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 571761,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 + x^4 + 2*x^2 - 2*x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 572715,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^6 + 2*x^5 + 2*x^4 - 2*x^2 - 2*x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 591219,
+"curve": "y^2 + (x^3 + x^2 + x)*y = -2*x^5 - 2*x^3 + 2*x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 591687,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = -2*x^5 + 2*x^4 + x^3 - 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 592625,
+"curve": "y^2 + (x^3 + x + 1)*y = x^6 + 2*x^4 + 2*x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 612425,
+"curve": "y^2 + (x^3 + 1)*y = x^6 - 2*x^4 - 2*x^3 + 2*x^2 - 2*x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 617742,
+"curve": "y^2 + (x^3 + x^2)*y = -x^6 - 2*x^5 + x^4 + x^3 - 2*x^2 - x + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 620217,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 - 2*x^5 - x^4 - 2*x^3 - 2*x^2 - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 631189,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^6 - x^5 - 2*x^3 + 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 634725,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + x^4 - x^3 - x^2 - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 642637,
+"curve": "y^2 + (x^3)*y = -x^6 + 2*x^5 - x^4 + 2*x^2 - x + 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 695965,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 + 2*x^3 + 2*x^2 - x - 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 699025,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + 2*x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 703125,
+"curve": "y^2 + (x^3)*y = x^5 - x + 1",
+"parabolic_test": "neither parabolic"
+},
+{
+"N": 712025,
+"curve": "y^2 + (x^2 + x + 1)*y = -x^6 + 2*x^5 + 2*x^4 + 2*x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 737725,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^3 + 2*x^2 - 2*x",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 741125,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + x^4 + x^3 + x^2 - 2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 776601,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 - x^4 + 2*x^3 + 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 778806,
+"curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^5 - x^4 + x^3 + 2*x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 825625,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - 2*x^4 + x^3 + 2*x^2 + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 826025,
+"curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^5 + x^4 + 2*x^3 - 2*x^2",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 883225,
+"curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + 2*x^5 + 2*x^3",
+"parabolic_test": "line-compatible+plane-compatible"
+},
+{
+"N": 944622,
+"curve": "y^2 + (x^3 + x)*y = -x^5 - 2*x + 2",
+"parabolic_test": "plane-compatible"
+},
+{
+"N": 976250,
+"curve": "y^2 + (x^3 + x^2)*y = x^5 + 2*x^4 - x^3 - x^2 - x + 1",
+"parabolic_test": "line-compatible+plane-compatible"
+}
+]
