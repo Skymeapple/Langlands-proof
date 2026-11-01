@@ -1,0 +1,4463 @@
+[
+ {
+  "N": 713,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 745,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 862,
+  "curve": "y^2 + (x^3 + x^2)*y = -2*x^5 + 2*x^4 + x^3 - 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 975,
+  "curve": "y^2 + (x^3 + 1)*y = x^5 - 2*x^3 + 2*x^2 - x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 997,
+  "curve": "y^2 + (1)*y = -x^5 - 2*x^4 - 2*x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 1038,
+  "curve": "y^2 + (x^3 + 1)*y = x^6 - x^5 + 2*x^4 - x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 1042,
+  "curve": "y^2 + (x^2 + 1)*y = 2*x^6 + 2*x^5 - x^4 - x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 1055,
+  "curve": "y^2 + (x^3 + 1)*y = -x^6 + x^5 + x^4 - x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 1137,
+  "curve": "y^2 + (x^2 + x + 1)*y = x^5 + x^4 + x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 1239,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 1269,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^5 + x^4",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 1473,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^2 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 1695,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 + x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 1746,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 + 2*x^2 + x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 1813,
+  "curve": "y^2 + (x^3)*y = -x^5 + x^4 - 2*x^3 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 1854,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 + x^3 - 2*x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 1863,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 + x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 2031,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 2059,
+  "curve": "y^2 + (1)*y = x^5 + x^4 - 2*x^3 - 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 2341,
+  "curve": "y^2 + (x^3)*y = -x^6 + x^5 - 2*x^3 + 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 2575,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 - x^3 + x^2 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 2634,
+  "curve": "y^2 + (x^3 + x^2)*y = -x^6 + x^5 - 2*x^4 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 2650,
+  "curve": "y^2 + (x^3 + x^2)*y = -x^5 + x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 2673,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 - x^4 - 2*x^3 - 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))",
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))",
+    "(Q8 x Q8) : (S3 x S3)"
+   ]
+  }
+ },
+ {
+  "N": 2675,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - 2*x^4 + x^3 + 2*x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 2697,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 + x^3 - x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 2725,
+  "curve": "y^2 + (x^3)*y = -x^5 + x^4 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 2862,
+  "curve": "y^2 + (x^3 + 1)*y = x^5 + x^4 + x^3 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 2873,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + 2*x^4 - x^3 + 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 2891,
+  "curve": "y^2 + (1)*y = -x^5 - 2*x^4 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 2985,
+  "curve": "y^2 + (1)*y = -x^5 + x^4 + 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false,
+  "recert_p<3000": {
+   "surjective": false,
+   "not_excluded": [
+    "C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  }
+ },
+ {
+  "N": 3107,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -2*x^6 + 2*x^5 + 2*x^3 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 3237,
+  "curve": "y^2 + (x^3 + 1)*y = -x^5 + 2*x^3 - x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 3245,
+  "curve": "y^2 + (x^3 + 1)*y = -x^6 - x^5 + x^4 - x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 3381,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^6 - x^5 + x^4 - 2*x^2 - 2*x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 3483,
+  "curve": "y^2 + (x^3)*y = x^5 + x^4 + 2*x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 3709,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 3726,
+  "curve": "y^2 + (x^3 + x^2)*y = -x^5 + x^4 - 2*x^3 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 3950,
+  "curve": "y^2 + (x^2 + 1)*y = x^6 - x^5 - x^4",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 3950,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = x^5 + x^4 - x^3 - 2*x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 4025,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + x^4 - 2*x^3 - 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 4185,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 4329,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 + x^5 - 2*x^4 + 2*x^3 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 4330,
+  "curve": "y^2 + (x^2 + x)*y = x^5 + x^4 + x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 4617,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = x^6 - x^5 - x^4 + 2*x^3 - 2*x^2 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))",
+   "(C3 x C3 x C3) : (C2 x GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 4671,
+  "curve": "y^2 + (1)*y = -x^5 - 2*x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 4698,
+  "curve": "y^2 + (x^3 + x)*y = -x^5 + 2*x^4 - 2*x^3 + x^2 - 2*x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 4749,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 + x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 4857,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 + 2*x^3 + 2*x^2 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 4925,
+  "curve": "y^2 + (1)*y = x^6 + x^5 - x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 4949,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 - x^3 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 5043,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 - 2*x^4 - x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "(C3 x C3 x C3) : (C2 x GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "plane-compatible",
+  "other_thmA_failures": [
+   "Frob2-charpoly-excluded",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 5046,
+  "curve": "y^2 + (x^2)*y = -x^6 - x^5 - x^4 - 2*x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))",
+   "(C3 x C3 x C3) : (C2 x GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 5125,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + x^4",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 5497,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 5497,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - 2*x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 5535,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 - 2*x^5 + 2*x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 5659,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 - x^3 - 2*x^2 + 2*x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 5819,
+  "curve": "y^2 + (1)*y = x^6 - x^5 + 2*x^4 - x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 5865,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^3 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 5939,
+  "curve": "y^2 + (x^3 + x + 1)*y = -x^5 + x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 6050,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = x^5 + x^4 + 2*x^3 + 2*x^2 + x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 6199,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 6342,
+  "curve": "y^2 + (x^3 + x^2)*y = 2*x^6 - 2*x^5 - x^3 + 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 6441,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 + x^5 - x^4 + 2*x^3 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 6615,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^4 + 2*x^3 + x^2 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 6713,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = x^6 - 2*x^5 - 2*x^4 + 2*x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 6843,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 + x^3 + x^2 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 6964,
+  "curve": "y^2 + (x^2 + x)*y = 2*x^6 + 2*x^4 - 2*x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 7161,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 7447,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - 2*x^4 + x^2 - x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 7629,
+  "curve": "y^2 + (x^3)*y = -x^5 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 7657,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - x^5 - x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 7831,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - x^5 - 2*x^4 - 2*x^3 - 2*x^2 - x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 8019,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 - 2*x^5 - x^4 + 2*x^3 - 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))",
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 8073,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 - x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 8251,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 - x^3 - 2*x^2 - 2*x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 8335,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 8441,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 - x^3 + x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 8549,
+  "curve": "y^2 + (x^3)*y = x^6 - 2*x^5 + 2*x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 8586,
+  "curve": "y^2 + (x^2)*y = -x^6 + x^5 + x^4 - x^3 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 8657,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 - x^3 + x^2 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 9161,
+  "curve": "y^2 + (x^3 + x + 1)*y = x^6 + x^5 + x^4 + x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 10081,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 + x^4 - 2*x^3 + 2*x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 10449,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + 2*x^4 - x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 10913,
+  "curve": "y^2 + (x^3 + 1)*y = x^6 - 2*x^5 - 2*x^4 + 2*x^3 + 2*x^2 - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 10935,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + 2*x^4 - x^3 - 2*x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))",
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 10985,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 - 2*x^4 + 2*x^3 + x^2 - 2*x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 11275,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 + x^3 - 2*x^2 + 2*x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 11455,
+  "curve": "y^2 + (x^3 + x + 1)*y = x^6 - x^4 + x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 11537,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^3 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 11809,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^3 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 12025,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 - x^3 + 2*x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 12050,
+  "curve": "y^2 + (x^2)*y = x^6 - x^5 - x^4 + 2*x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 12393,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 - 2*x^5 + 2*x^4 - x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))",
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 12489,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 + x^4 + 2*x^3 + 2*x^2 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 12500,
+  "curve": "y^2 + (x^3 + 1)*y = x^6 + 2*x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "SL(2,9) : (C2 x C2)"
+  ],
+  "parabolic_test_p<1000": "neither parabolic",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 12501,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 - x^3 - 2*x^2 + x - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 13734,
+  "curve": "y^2 + (x^2 + x)*y = x^6 + x^5 + 2*x^3 + x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 13821,
+  "curve": "y^2 + (x^3)*y = -x^6 - x^5 - x^4 - 2*x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 14065,
+  "curve": "y^2 + (x^3 + 1)*y = x^6 - x^5 + x^4 - x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 14363,
+  "curve": "y^2 + (x^3)*y = x^6 + 2*x^5 - x^4 + 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 14534,
+  "curve": "y^2 + (x^3 + x^2)*y = x^6 - 2*x^5 + x^4 + x^3 - 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 14705,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 14806,
+  "curve": "y^2 + (x^2)*y = -x^6 + x^5 - x^4 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 14825,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + x^4 - x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 15065,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^3 - 2*x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 15225,
+  "curve": "y^2 + (x^3 + x + 1)*y = -x^6 + x^5 + x^4 + x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 15433,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 - 2*x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "Frob3-repeated-roots"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 15525,
+  "curve": "y^2 + (x^3 + x + 1)*y = x^6 - x^4 + x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 15645,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 + x^5 - 2*x^4 - x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 15795,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 + x^3 + x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 15876,
+  "curve": "y^2 + (x^3 + 1)*y = -x^5 + x^3 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "(C3 x C3 x C3) : (C2 x GL(2,3))",
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 16023,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 + x^2 + x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 16310,
+  "curve": "y^2 + (x^2)*y = 2*x^6 - 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 16335,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 + 2*x^4 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 16725,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 - x^4 - x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 16902,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 + x^5 + x^4 + 2*x^3 + 2*x^2 + x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 17061,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^6 - x^5 - 2*x^4 + 2*x^3 + x^2 - 2*x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 17225,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^4 + x^3 + x^2 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 17510,
+  "curve": "y^2 + (x^2 + 1)*y = -x^6 + x^5 - x^4 - 2*x^3 + 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 17525,
+  "curve": "y^2 + (1)*y = x^5 - x^4 - 2*x^3 + 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 17577,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 - x^3 - 2*x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 17593,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 - x^5 - x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 17741,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^5 + 2*x^4 + x^3 - 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 18231,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 + 2*x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 18277,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^5 + 2*x^4 - x^3 - 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 18369,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - 2*x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 18567,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 - 2*x^5 - 2*x^4 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 18889,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 - x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 19385,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 - x^4 - x^3 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 19491,
+  "curve": "y^2 + (x^3)*y = -x^5 + 2*x^4 - 2*x^3 + 2*x^2 - x + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 19845,
+  "curve": "y^2 + (x^3)*y = x^5 + x^4 - x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "(C3 x C3 x C3) : (C2 x GL(2,3))",
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 19942,
+  "curve": "y^2 + (x^2 + 1)*y = -2*x^6 + 2*x^5 + x^4 - x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 20707,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 + x^4 - 2*x^3 + 2*x^2 - 2*x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 20923,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 - 2*x^4 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": true
+ },
+ {
+  "N": 21049,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 + x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 21087,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 - 2*x^3 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 21114,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -2*x^5 + x^4 + x^3 + 2*x^2 - x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 21402,
+  "curve": "y^2 + (x^3 + 1)*y = -x^5 - x^4 - x^3 - 2*x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 21511,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^4 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 21545,
+  "curve": "y^2 + (x^3 + x + 1)*y = x^6 + x^4 + x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 21879,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 - 2*x^5 - 2*x^4 - 2*x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 24361,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^5 + x^4 - x^3 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 24433,
+  "curve": "y^2 + (x^3 + 1)*y = x^6 + x^5 + x^4 - x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 25433,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 - x^5 - x^4 + x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 26125,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 - 2*x^3 + 2*x^2 + 2*x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 26446,
+  "curve": "y^2 + (x^3 + x^2)*y = -x^6 - x^5 + x^4 - x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 26953,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^4 + 2*x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 26973,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + 2*x^4 - 2*x^3 - 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 27110,
+  "curve": "y^2 + (x^3 + x^2)*y = x^6 + x^5 + 2*x^3 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 27378,
+  "curve": "y^2 + (x^2)*y = 2*x^6 + 2*x^5 + x^4 - x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))",
+   "(C3 x C3 x C3) : (C2 x GL(2,3))",
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 27378,
+  "curve": "y^2 + (x^3 + 1)*y = x^5 - x^4 - x^3 - 2*x^2 - x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 27530,
+  "curve": "y^2 + (x^3 + 1)*y = x^6 + x^5 - x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 28630,
+  "curve": "y^2 + (x^2)*y = 2*x^5 + 2*x^4 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 29295,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 + x^5 - x^3 - 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 30025,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 - x^3 + x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 30075,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = x^6 + x^5 - x^4 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 31125,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = x^6 + 2*x^5 - 2*x^4 - 2*x^3 + 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 31347,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 - x^4 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 31725,
+  "curve": "y^2 + (x^3)*y = 2*x^6 - x^5 - x^4 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 31985,
+  "curve": "y^2 + (x^3 + 1)*y = x^6 + x^4 - x^3 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 32849,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 + x^4 - 2*x^3 + 2*x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 33271,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = -2*x^5 + x^4 + x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 35819,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 - 2*x^4 + 2*x^3 + 2*x^2 - x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 35969,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - 2*x^3 + x^2 - x + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 36425,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + x^4 + x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 36750,
+  "curve": "y^2 + (x^3 + x^2)*y = -x^6 + x^5 + 2*x^3 + x^2 - x + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 36837,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^6 + x^5 + x^4 - 2*x^2 - 2*x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 37450,
+  "curve": "y^2 + (x^2 + x)*y = x^6 - x^5 + x^3 - x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 37611,
+  "curve": "y^2 + (x^3)*y = x^6 + 2*x^5 - 2*x^4 - 2*x^3 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 38007,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + 2*x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 38385,
+  "curve": "y^2 + (x^3 + x + 1)*y = x^5 + x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 38563,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + x^4 - 2*x^3 + 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 39690,
+  "curve": "y^2 + (x^3 + x)*y = -x^6 - 2*x^4 + 2*x^3 + 2*x^2 - x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))",
+   "(C3 x C3 x C3) : (C2 x GL(2,3))",
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 40565,
+  "curve": "y^2 + (x^3)*y = x^6 + x^4 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 41049,
+  "curve": "y^2 + (x^2 + x + 1)*y = x^6 + 2*x^5 + 2*x^4 + 2*x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 41121,
+  "curve": "y^2 + (x^3 + x + 1)*y = -x^6 + x^4 + x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 41273,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 + x^2 + x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 41823,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - 2*x^4 - 2*x^3 - 2*x - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 41925,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 + x^5 - x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 43771,
+  "curve": "y^2 + (x^3)*y = -x^6 + 2*x^5 - 2*x^4 + 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": true
+ },
+ {
+  "N": 44409,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^4 + x^3 - x^2 - 2*x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 45125,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^6 + 2*x^5 - x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "(C3 x C3 x C3) : (C2 x GL(2,3))",
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": true
+ },
+ {
+  "N": 45630,
+  "curve": "y^2 + (x^3 + x)*y = -x^6 - x^5 - x^4 + x^3 - x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 45927,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + 2*x^4 - x^3 + x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))",
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 47385,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 + 2*x^4 - x^3 - 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 47385,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 + 2*x^4 - x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 47979,
+  "curve": "y^2 + (x^3)*y = -x^5 - x^4 - x^3 - x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 52245,
+  "curve": "y^2 + (x^3)*y = 2*x^6 + x^5 - 2*x^4 + 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 52969,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - x^4 - x^2 - 2*x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 53001,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 - 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 53403,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 - 2*x^5 - 2*x^4 + 2*x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 53742,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 - x^3 + 2*x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 54675,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 - x^4 - x^3 - 2*x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))",
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 55827,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + x^4 - x^3 - x^2 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 56950,
+  "curve": "y^2 + (x^2 + x)*y = -x^6 - 2*x^4 - x^3 - 2*x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 57753,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 + x^3 + x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 58617,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - 2*x^3 - 2*x^2 + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 58905,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 - 2*x^5 - 2*x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 59193,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 + x^5 - 2*x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 59481,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^3 + x^2 + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 59977,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^4 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 60345,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 - 2*x^3 - 2*x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 60497,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^2 + x + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 61150,
+  "curve": "y^2 + (x^2)*y = -x^6 + x^5 - 2*x^4 - x^3 - x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 61398,
+  "curve": "y^2 + (x^2 + 1)*y = -2*x^6 - x^4 - x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 62309,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - x^4 + x^3 - 2*x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 63147,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 - 2*x^5 - x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 64081,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - 2*x^4 + x^3 + 2*x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 64289,
+  "curve": "y^2 + (x^3 + 1)*y = x^6 - x^5 + 2*x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 64729,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = x^6 + x^5 - 2*x^4 - 2*x^3 - x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 64735,
+  "curve": "y^2 + (x^3)*y = -x^6 - 2*x^5 + 2*x^3 - x^2 - x + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 64977,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -2*x^6 + x^5 - 2*x^4 - 2*x^3 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 68489,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = x^6 + x^5 + x^4 + x^3 - x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 69121,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 - x^3 + x^2 + x + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 69482,
+  "curve": "y^2 + (x^2 + x)*y = x^6 - x^4 + x^3 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 71519,
+  "curve": "y^2 + (x^3 + 1)*y = -x^6 + 2*x^5 - 2*x^4 + 2*x^3 - 2*x^2 - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 71850,
+  "curve": "y^2 + (x^2)*y = 2*x^6 - 2*x^5 - 2*x^4 + 2*x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 72089,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 - 2*x^5 + x^4 + 2*x^3 + 2*x^2 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 73905,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 + x^4 + 2*x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 76113,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^3 - 2*x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 76383,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 - 2*x^5 + 2*x^4 + x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 76518,
+  "curve": "y^2 + (x^2 + x)*y = x^5 - x^4 - x^3 - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 77202,
+  "curve": "y^2 + (x^3 + x^2)*y = x^6 - 2*x^5 + x^4 - 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 77452,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - 2*x^4 + 2*x^3 + x^2 - 2*x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 77803,
+  "curve": "y^2 + (x^3)*y = x^6 - x^5 - 2*x^4 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": true
+ },
+ {
+  "N": 77841,
+  "curve": "y^2 + (x^2 + 1)*y = x^6 - x^4 - x^3 - 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "SL(2,9) : (C2 x C2)"
+  ],
+  "parabolic_test_p<1000": "neither parabolic",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 78121,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 + 2*x^3 - 2*x^2 + x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 80919,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 84753,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^3 + x^2 + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 85345,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + 2*x^4 + 2*x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 89550,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 + x^5 + x^4 - x^3 - 2*x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 89782,
+  "curve": "y^2 + (x^3 + x^2)*y = x^6 + x^5 - x^4 - x^3 - 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 95951,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = x^5 + x^4 - 2*x^3 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "Frob3-repeated-roots"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 96117,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 - x^5 + x^4 + x^3 - x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 97947,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + 2*x^3 + 2*x^2 + 2*x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 98425,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^4 - 2*x^3 + 2*x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 100017,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 + x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 100481,
+  "curve": "y^2 + (x^3 + 1)*y = x^6 + x^5 + 2*x^4 + x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 103743,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 + x^4 + x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 103750,
+  "curve": "y^2 + (x^2)*y = 2*x^6 + x^4 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 104091,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + 2*x^4 - 2*x^3 + x^2 + x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 105705,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 - x^4 - 2*x^3 - 2*x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 105705,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + 2*x^4 - x^3 + x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 105794,
+  "curve": "y^2 + (x^3 + x^2)*y = x^6 + x^5 + 2*x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 105843,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 - 2*x^4 - x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 106977,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 + 2*x^5 + 2*x^4 - x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 107649,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 - 2*x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 108567,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 + 2*x^3 - 2*x^2 - 2*x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 113155,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^4 - 2*x^3 + x^2 - 2*x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 113645,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 + x^3 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 114686,
+  "curve": "y^2 + (x^3 + x)*y = -x^6 + 2*x^5 - x^4 - x^3 + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 119617,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = x^5 + x^4 - 2*x^3 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "Frob3-repeated-roots"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 124950,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 - x^5 + x^3 - 2*x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 135267,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 - 2*x^5 + x^4 + 2*x^3 - x^2 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 137781,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 - x^4 - x^3 + x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))",
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 138666,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = x^6 + x^5 + x^4 - x^3 - 2*x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 140391,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 - 2*x^4 - 2*x^3 + x^2 - 2*x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 141003,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^5 + x^4 + x^3 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 141395,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 - x^5 - 2*x^4 - 2*x^3 - x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 143634,
+  "curve": "y^2 + (x^3 + x)*y = -x^6 - x^4 + x^3 - 2*x - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 143829,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 - 2*x^5 - 2*x^4 + x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 146853,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^5 - x^4 + 2*x^3 - 2*x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 147150,
+  "curve": "y^2 + (x^3 + x)*y = x^6 + 2*x^4 - x^3 + 2*x^2 - 2*x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 147303,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 - x^4 + 2*x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 148250,
+  "curve": "y^2 + (x^3 + x^2)*y = x^5 - x^4 - x^3 + 2*x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 150993,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^6 - 2*x^5 + x^4 - x^3 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 152943,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 + x^4 - x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 154221,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 + 2*x^4 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 157157,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - x^5 - x^4 - x^3 - 2*x^2 - 2*x - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 158355,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 - x^4 - 2*x^3 - 2*x^2 + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 160377,
+  "curve": "y^2 + (x^3 + x + 1)*y = -x^6 + 2*x^4 + 2*x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 160445,
+  "curve": "y^2 + (x^3 + x + 1)*y = -x^6 + x^5 + 2*x^3 + 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 163371,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 - 2*x^4 + 2*x^3 - x^2 + x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 169670,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = x^6 - x^3 + 2*x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 171369,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 - x^3 + x^2 + x - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 180625,
+  "curve": "y^2 + (x^3)*y = -x^5 - x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "SL(2,9) : (C2 x C2)"
+  ],
+  "parabolic_test_p<1000": "neither parabolic",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": true
+ },
+ {
+  "N": 181675,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 + x^4 + 2*x^3 + 2*x^2 - 2*x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 183897,
+  "curve": "y^2 + (x^3)*y = 2*x^5 + x^4 + x^3 - 2*x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 191673,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + 2*x^5 - 2*x^4 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 192375,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 - 2*x^4 - x^3 - x^2 + 2*x - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 193347,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 - 2*x^3 + x^2 + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 193575,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^6 + 2*x^4 - 2*x^3 - 2*x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 202833,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 + x^3 + x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 207819,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 - 2*x^5 + x^4 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 211511,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^4 + 2*x^3 + 2*x^2 + x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 211775,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + x^4 + x^3 - x^2 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 217503,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^4 + 2*x^3 - x^2 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 217737,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 - 2*x^3 + 2*x^2 + 2*x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 222939,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 + 2*x^3 + x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 230121,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 + x^5 - 2*x^3 - x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 239683,
+  "curve": "y^2 + (x^3)*y = -2*x^6 - x^5 - x^4 + 2*x^3 - x^2 - x - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 243243,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^6 + x^5 - x^3 + x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 247050,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 + x^5 - x^4 + 2*x^2 - 2*x - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 252363,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + 2*x^4 - x^3 - 2*x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 253125,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + x^4 + 2*x^3 + 2*x^2 + 2*x + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "SL(2,9) : (C2 x C2)"
+  ],
+  "parabolic_test_p<1000": "neither parabolic",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 256473,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 - x^4 + 2*x^3 + 2*x^2 - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 264825,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 + x^3 - 2*x^2 + 2*x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 267050,
+  "curve": "y^2 + (x^2 + x)*y = x^6 + 2*x^4 - 2*x^3 - 2*x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 277749,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + 2*x^4 + 2*x^3 + x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 289575,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + 2*x^5 - 2*x^4 + x^3 + 2*x^2 - x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 296089,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^4 + 2*x^3 + 2*x^2 + x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 296703,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 - x^4 - 2*x^3 + x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 299700,
+  "curve": "y^2 + (x^3 + 1)*y = x^6 + x^5 + x^4 + x^3 - x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 301455,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^3 - 2*x^2 + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 309155,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^6 - x^3 - 2*x^2 - 2*x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 311003,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 - x^3 + 2*x^2 - 2*x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 313290,
+  "curve": "y^2 + (x^3 + x)*y = x^6 - x^4 + x^3 - 2*x^2 - 2*x + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 321849,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^2 + x - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 322335,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 + x^5 - 2*x^3 - x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 322947,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^6 + x^5 + 2*x^4 - 2*x^3 - 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 334611,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + 2*x^4 + 2*x^3 - 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 339615,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 + 2*x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 344151,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + x^4 + 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 352107,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + x^5 - x^4 - x^3 + x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 366825,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 - 2*x^4 + 2*x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 369558,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 + x^5 + x^4 - x^3 - 2*x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 370989,
+  "curve": "y^2 + (x^3 + x + 1)*y = -x^5 + x^4 + 2*x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 379161,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^6 + 2*x^5 - x^4 + 2*x^3 - 2*x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 410059,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^6 + 2*x^5 + 2*x^4 - 2*x^3 + 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 417663,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 + 2*x^3 - 2*x^2 + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 419061,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 - 2*x^5 + 2*x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 420579,
+  "curve": "y^2 + (x^3)*y = -2*x^6 - x^5 + 2*x^4 + x^3 + 2*x^2 - x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 420843,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 + x^5 + 2*x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 422500,
+  "curve": "y^2 + (x^3 + 1)*y = x^6 - x^5 + 2*x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "SL(2,9) : (C2 x C2)"
+  ],
+  "parabolic_test_p<1000": "neither parabolic",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 423009,
+  "curve": "y^2 + (x^3 + x + 1)*y = 2*x^6 + x^4 + 2*x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 429875,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 + x^4 - x^3 + 2*x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 430625,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 - x^5 - 2*x^4 - x^3 - 2*x^2 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 438129,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 - x^4 - 2*x^3 - 2*x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 439587,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + 2*x^4 + 2*x^3 + x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 445257,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 + x^5 - x^4 - 2*x^3 + x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 488373,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 + x^5 - 2*x^4 + x^3 - x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 497457,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = 2*x^6 - 2*x^5 + x^4 + x^3 - x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 498025,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 + 2*x^3 - 2*x^2 - 2*x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 498173,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^6 + x^5 + x^4 + 2*x^3 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 521433,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - x^4 + x^3 - x^2 - x - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 535275,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 - 2*x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 536553,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -x^5 - 2*x^3 + x^2 - x - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 564975,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^5 - x^4 - 2*x^3 + x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 566293,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 + x^2 - 2*x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 571761,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 + x^4 + 2*x^2 - 2*x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 572715,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^6 + 2*x^5 + 2*x^4 - 2*x^2 - 2*x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 591219,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = -2*x^5 - 2*x^3 + 2*x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 591687,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = -2*x^5 + 2*x^4 + x^3 - 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 592625,
+  "curve": "y^2 + (x^3 + x + 1)*y = x^6 + 2*x^4 + 2*x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 612425,
+  "curve": "y^2 + (x^3 + 1)*y = x^6 - 2*x^4 - 2*x^3 + 2*x^2 - 2*x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 617742,
+  "curve": "y^2 + (x^3 + x^2)*y = -x^6 - 2*x^5 + x^4 + x^3 - 2*x^2 - x + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 620217,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = 2*x^6 - 2*x^5 - x^4 - 2*x^3 - 2*x^2 - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 631189,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^6 - x^5 - 2*x^3 + 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 634725,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + x^4 - x^3 - x^2 - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 642637,
+  "curve": "y^2 + (x^3)*y = -x^6 + 2*x^5 - x^4 + 2*x^2 - x + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 695965,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + x^5 + 2*x^3 + 2*x^2 - x - 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 699025,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + 2*x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 703125,
+  "curve": "y^2 + (x^3)*y = x^5 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "SL(2,9) : (C2 x C2)"
+  ],
+  "parabolic_test_p<1000": "neither parabolic",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 712025,
+  "curve": "y^2 + (x^2 + x + 1)*y = -x^6 + 2*x^5 + 2*x^4 + 2*x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 737725,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -2*x^5 + x^3 + 2*x^2 - 2*x",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 741125,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = x^6 + 2*x^5 + x^4 + x^3 + x^2 - 2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 776601,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 - 2*x^5 - x^4 + 2*x^3 + 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 778806,
+  "curve": "y^2 + (x^3 + x^2 + x)*y = 2*x^5 - x^4 + x^3 + 2*x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 825625,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^5 - 2*x^4 + x^3 + 2*x^2 + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 826025,
+  "curve": "y^2 + (x^3 + x^2 + x + 1)*y = x^5 + x^4 + 2*x^3 - 2*x^2",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 883225,
+  "curve": "y^2 + (x^3 + x^2 + 1)*y = -x^6 + 2*x^5 + 2*x^3",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 944622,
+  "curve": "y^2 + (x^3 + x)*y = -x^5 - 2*x + 2",
+  "maximal_classes_not_excluded_p<800": [
+   "(Q8 x Q8) : (S3 x S3)"
+  ],
+  "parabolic_test_p<1000": "plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "bad-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ },
+ {
+  "N": 976250,
+  "curve": "y^2 + (x^3 + x^2)*y = x^5 + 2*x^4 - x^3 - x^2 - x + 1",
+  "maximal_classes_not_excluded_p<800": [
+   "C2 x (((C3 x C3) : C3) : GL(2,3))"
+  ],
+  "parabolic_test_p<1000": "line-compatible+plane-compatible",
+  "other_thmA_failures": [
+   "bad-at-2",
+   "non-ordinary-at-3"
+  ],
+  "lemma_6_4_3_candidate": false
+ }
+]
