@@ -1,0 +1,142 @@
+{
+ "classes_total": 5567,
+ "classes_known_conductor": 2740,
+ "classes_2part_unknown_bad_at_2": 2827,
+ "tags_known_conductor": {
+  "OPEN": 2020,
+  "A": 659,
+  "NT-other": 7,
+  "NT-split": 40,
+  "NT-RM": 12,
+  "FS": 2
+ },
+ "open_failure_counts": {
+  "bad-at-3": 1003,
+  "non-ordinary-at-3": 504,
+  "Frob2-charpoly-excluded": 374,
+  "mod3-not-certified-surjective": 89,
+  "bad-at-2": 652,
+  "Frob3-repeated-roots": 4
+ },
+ "open_single_failure": {
+  "bad-at-3": 610,
+  "non-ordinary-at-3": 305,
+  "Frob2-charpoly-excluded": 181,
+  "mod3-not-certified-surjective": 27,
+  "bad-at-2": 297,
+  "Frob3-repeated-roots": 3
+ },
+ "open_reducible_or_small_mod3": 89,
+ "smallest_open": [
+  [
+   249,
+   "y^2 + (x^3 + 1)*y = -x^5 + x^4 - x^3",
+   [
+    "bad-at-3"
+   ]
+  ],
+  [
+   349,
+   "y^2 + (x^3 + x^2 + x + 1)*y = -x^5 - x^3 - x^2 - x",
+   [
+    "Frob2-charpoly-excluded"
+   ]
+  ],
+  [
+   523,
+   "y^2 + (x^3 + x^2)*y = -x^5 + x^3 - x^2 - x",
+   [
+    "Frob2-charpoly-excluded",
+    "non-ordinary-at-3"
+   ]
+  ],
+  [
+   603,
+   "y^2 + (x^3 + x)*y = -x^5 + x^3 - x",
+   [
+    "Frob2-charpoly-excluded",
+    "bad-at-3"
+   ]
+  ],
+  [
+   713,
+   "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x",
+   [
+    "non-ordinary-at-3"
+   ]
+  ],
+  [
+   713,
+   "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^3 - x^2",
+   [
+    "mod3-not-certified-surjective:C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  ],
+  [
+   745,
+   "y^2 + (x^3 + x^2 + 1)*y = -x^5",
+   [
+    "mod3-not-certified-surjective:C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  ],
+  [
+   797,
+   "y^2 + (1)*y = -x^5 - x^4 - x^3",
+   [
+    "non-ordinary-at-3"
+   ]
+  ],
+  [
+   834,
+   "y^2 + (x^3 + 1)*y = -x^6 - x^5 - x^4 - x^3",
+   [
+    "bad-at-2",
+    "bad-at-3"
+   ]
+  ],
+  [
+   893,
+   "y^2 + (x^3 + x^2 + 1)*y = -x^5 - x^4 - x^3 - x^2",
+   [
+    "non-ordinary-at-3"
+   ]
+  ],
+  [
+   909,
+   "y^2 + (x^2 + 1)*y = -x^5 + x^4 - x^2",
+   [
+    "bad-at-3"
+   ]
+  ],
+  [
+   970,
+   "y^2 + (x^3 + x^2)*y = -x^5 + x^4 - x^3 + x^2 - x",
+   [
+    "bad-at-2",
+    "non-ordinary-at-3"
+   ]
+  ],
+  [
+   1047,
+   "y^2 + (x^2 + 1)*y = -x^5",
+   [
+    "Frob2-charpoly-excluded",
+    "bad-at-3"
+   ]
+  ],
+  [
+   1051,
+   "y^2 + (x^3)*y = x^5 + x^4 - x^2 - x",
+   [
+    "non-ordinary-at-3"
+   ]
+  ],
+  [
+   1055,
+   "y^2 + (x^3 + 1)*y = -x^6 + x^5 + x^4 - x^3 - x^2",
+   [
+    "mod3-not-certified-surjective:C2 x (((C3 x C3) : C3) : GL(2,3))"
+   ]
+  ]
+ ]
+}
