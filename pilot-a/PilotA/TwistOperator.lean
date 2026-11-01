@@ -8,10 +8,14 @@ For `γ = [[α, β], [c, δ]] ∈ Γ₀(N D²)` and an integer `A`, with `A' ≡
 import Mathlib.NumberTheory.ModularForms.Identities
 import Mathlib.NumberTheory.ModularForms.Basic
 import Mathlib.NumberTheory.MulChar.Basic
+import Mathlib.Geometry.Manifold.Notation
+import Mathlib.Geometry.Manifold.MFDeriv.NormedSpace
 
 set_option autoImplicit false
 
 noncomputable section
+
+open scoped Manifold
 
 namespace PilotA
 
@@ -142,5 +146,80 @@ theorem twistFun_slash (N : ℕ) (f : ℍ → ℂ) (hf : ∀ γ ∈ Gamma0 N, f 
   show _ = χ (a * ↑(u ^ 2)) • _
   rw [map_mul, hχu, mul_one, ← hu]
   rfl
+
+/-! ### Holomorphy and cusp conditions -/
+
+lemma twistFun_mdifferentiable (f : ℍ → ℂ) (hf : MDiff f) (χ : MulChar (ZMod D) ℂ) :
+    MDiff (twistFun f χ) := by
+  unfold twistFun
+  refine MDifferentiable.sum (fun a _ => ?_)
+  have h := MDifferentiable.smul (f := fun _ : ℍ => χ a) mdifferentiable_const (hf.slash 2
+    (upperRightHom (((a.val : ℤ) : ℝ) / D)))
+  exact h
+
+lemma upperRightHom_rat (x : ℚ) :
+    (upperRightHom (x : ℚ)).map (Rat.castHom ℝ) = upperRightHom (x : ℝ) := by
+  ext i j
+  fin_cases i <;> fin_cases j <;> simp
+
+/-- Translating a cusp of `SL(2, ℤ)` by a rational number gives a cusp. -/
+lemma isCusp_translate {c : OnePoint ℝ} (hc : IsCusp c 𝒮ℒ) (x : ℚ) :
+    IsCusp (upperRightHom (x : ℝ) • c) 𝒮ℒ := by
+  rw [isCusp_SL2Z_iff] at hc ⊢
+  obtain ⟨q, rfl⟩ := hc
+  refine ⟨upperRightHom x • q, ?_⟩
+  classical
+  have h := OnePoint.map_smul (Rat.castHom ℝ) (upperRightHom x) q
+  rw [upperRightHom_rat] at h
+  simpa using h
+
+lemma isZeroAt_zero' (c : OnePoint ℝ) (k : ℤ) : c.IsZeroAt (0 : ℍ → ℂ) k := fun g _ => by
+  rw [SlashAction.zero_slash]; exact Filter.zero_zeroAtFilter _
+
+lemma isZeroAt_const_smul {c : OnePoint ℝ} {F : ℍ → ℂ} {k : ℤ} (h : c.IsZeroAt F k) (z : ℂ) :
+    c.IsZeroAt (z • F) k := fun g hg => by
+  rw [ModularForm.smul_slash]; exact (h g hg).smul _
+
+lemma isZeroAt_sum {c : OnePoint ℝ} {k : ℤ} {ι : Type*} (s : Finset ι) (F : ι → ℍ → ℂ)
+    (h : ∀ i ∈ s, c.IsZeroAt (F i) k) : c.IsZeroAt (∑ i ∈ s, F i) k := by
+  classical
+  induction s using Finset.induction_on with
+  | empty => simpa using isZeroAt_zero' c k
+  | insert i t hi IH =>
+    rw [Finset.sum_insert hi]
+    exact (h i (Finset.mem_insert_self _ _)).add (IH fun j hj => h j (Finset.mem_insert_of_mem hj))
+
+/-- The twist vanishes at every cusp. -/
+lemma twistFun_isZeroAt (N : ℕ) [NeZero N] (f : CuspForm (Gamma0 N) 2) (χ : MulChar (ZMod D) ℂ)
+    {c : OnePoint ℝ} (hc : IsCusp c 𝒮ℒ) : c.IsZeroAt (twistFun f χ) 2 := by
+  unfold twistFun
+  refine isZeroAt_sum _ _ (fun a _ => isZeroAt_const_smul ?_ _)
+  rw [← OnePoint.IsZeroAt.smul_iff]
+  apply CuspFormClass.zero_at_cusps f
+  rw [Subgroup.IsArithmetic.isCusp_iff_isCusp_SL2Z]
+  have h := isCusp_translate hc ((a.val : ℚ) / D)
+  have e : (((a.val : ℤ) : ℝ) / D) = (((a.val : ℚ) / D : ℚ) : ℝ) := by push_cast; rfl
+  rw [e]; exact h
+
+instance (N : ℕ) [NeZero N] : NeZero (N * D ^ 2) := ⟨by simp [NeZero.ne]⟩
+
+/-- **The twisted cusp form** `Σ_{a mod D} χ(a) f(τ + a/D)`, on `Γ₀(N D²)`. -/
+def twistCuspForm (N : ℕ) [NeZero N] (f : CuspForm (Gamma0 N) 2) (χ : MulChar (ZMod D) ℂ)
+    (hχ : ∀ u : (ZMod D)ˣ, χ u ^ 2 = 1) : CuspForm (Gamma0 (N * D ^ 2)) 2 where
+  toFun := twistFun f χ
+  slash_action_eq' γ hγ := by
+    obtain ⟨γ0, hγ0, rfl⟩ := Subgroup.mem_map.mp hγ
+    have hf : ∀ γ ∈ Gamma0 N, (f : ℍ → ℂ) ∣[(2 : ℤ)] γ = f := fun γ hγ => by
+      rw [SL_slash]
+      exact SlashInvariantFormClass.slash_action_eq f _ (Subgroup.mem_map_of_mem _ hγ)
+    have := twistFun_slash N f hf χ hχ γ0 hγ0
+    rw [SL_slash] at this
+    exact this
+  holo' := twistFun_mdifferentiable f (CuspFormClass.holo f) χ
+  zero_at_cusps' hc :=
+    twistFun_isZeroAt N f χ ((Subgroup.IsArithmetic.isCusp_iff_isCusp_SL2Z _).mp hc)
+
+lemma coe_twistCuspForm (N : ℕ) [NeZero N] (f : CuspForm (Gamma0 N) 2) (χ : MulChar (ZMod D) ℂ)
+    (hχ : ∀ u : (ZMod D)ˣ, χ u ^ 2 = 1) : (twistCuspForm N f χ hχ : ℍ → ℂ) = twistFun f χ := rfl
 
 end PilotA
