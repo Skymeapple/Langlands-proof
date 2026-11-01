@@ -1,6 +1,7 @@
 import PilotA.Modularity
 import PilotA.FrobeniusTrace
 import PilotA.Twist
+import PilotA.TwistCoeffs
 
 /-- info: 'PilotA.exists_semistable_model' depends on axioms: [propext, Classical.choice, Quot.sound] -/
 #guard_msgs in
@@ -29,3 +30,7 @@ import PilotA.Twist
 /-- info: 'PilotA.isModular_twist_of_isSemistable' depends on axioms: [propext, Classical.choice, Quot.sound] -/
 #guard_msgs in
 #print axioms PilotA.isModular_twist_of_isSemistable
+
+/-- info: 'PilotA.IsEigenCoeffs.twist' depends on axioms: [propext, Classical.choice, Quot.sound] -/
+#guard_msgs in
+#print axioms PilotA.IsEigenCoeffs.twist
