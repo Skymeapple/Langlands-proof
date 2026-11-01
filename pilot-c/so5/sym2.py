@@ -2,7 +2,8 @@ import cypari2,sys,json; pari=cypari2.Pari(); pari.allocatemem(10**10); pari.set
 from embed import make_embedded
 pari('read("lvals.gp")')
 p=int(sys.argv[1]); NC=int(sys.argv[2])
-D=json.load(open(f'periods_{p}.json')); fv=json.load(open('fvals_11_23_29_31_37_43.json'))
+D=json.load(open(f'periods_{p}.json')); import glob
+fv={k:v for g in glob.glob('fvals_*.json') for k,v in json.load(open(g)).items()}
 embedded=make_embedded(pari,p,NC); F4=embedded(4); F2=embedded(2)
 rows=[]
 for per in D['periods']:

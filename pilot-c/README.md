@@ -83,9 +83,9 @@ where ‖f‖² = ∫_{Γ0(p)\H} |f|² y⁴ dx dy/y² (the weight-4 Petersson no
 
 | Prediction | Data | Outcome |
 |---|---|---|
-| S1: P = 0 when σ = g₁⊗g₂ with g₁ ≠ g₂ (σ not *relevant* to the SK parameter f ⊞ S₂ in non-tempered GGP), although L(f×g₁×g₂) ≠ 0 | 29 pairs at p = 23, 29, 31, 43 | **Matched**: all \|P\|² < 10⁻⁷³ |
-| S2: P = 0 for σ = Eis ⊗ g | 69 pairs | **Matched**: all zero |
-| S3: for σ = g⊗g, \|P\|² ∝ L(1/2, f × Sym²g)/(L(1, Ad f) L(3/2, f)), with the constant above | 88 (f, g) pairs over p = 11, 23, 29, 31, 37, 43; 58 with ε_f = +1, 30 with ε_f = −1 | **Matched**: every ratio equals 1 to within 2·10⁻¹¹ |
+| S1: P = 0 when σ = g₁⊗g₂ with g₁ ≠ g₂ (σ not *relevant* to the SK parameter f ⊞ S₂ in non-tempered GGP), although L(f×g₁×g₂) ≠ 0 | 125 pairs at p = 23, 29, 31, 41, 43, 47 | **Matched**: all \|P\|² < 10⁻⁷¹ |
+| S2: P = 0 for σ = Eis ⊗ g | 143 pairs | **Matched**: all zero |
+| S3: for σ = g⊗g, \|P\|² ∝ L(1/2, f × Sym²g)/(L(1, Ad f) L(3/2, f)), with the constant above | 162 (f, g) pairs over p = 11, 23, 29, 31, 37, 41, 43, 47; 111 with ε_f = +1, 51 with ε_f = −1 | **Matched**: every ratio equals 1 to within 7·10⁻¹¹ |
 
 Points worth noting:
 - The factor L(1/2, f) in L(1/2, ψ×σ) cancels against the same factor in L(1, Ad ψ) for
@@ -97,7 +97,7 @@ Points worth noting:
 - Not tested: σ = Eis ⊗ Eis (27 nonzero periods), and the Yoshida and "other" quinary forms.
 
 **Caveats.** This is a numerically discovered formula, not a proof. "Matched" means the BZSV and
-non-tempered GGP shape holds and a single constant fits all 88 cases. The constant 3/(8π³) and
+non-tempered GGP shape holds and a single constant fits all 162 cases. p = 41 and 47 were added after the formula was found, so they are a genuine out-of-sample test (p = 41 also exercises the p ≡ 1 mod 8 maximal-order branch). The constant 3/(8π³) and
 the factor (p − ε_f) depend on our measure and lattice normalisations. At p = 43, building
 L(f × Sym²g) directly from its Euler product failed the functional-equation check for the
 quadratic-field form g, for a reason I have not found. Those 30 values were instead obtained as
@@ -106,7 +106,7 @@ L-function, which passes its check (to 10⁻³³ or better). For rational g at 4
 
 Reproduce from `so5/`: `python3 so5run.py <p>` (genera, Hecke matrices, perp counts), `python3 analyse.py <p>`
 (eigenforms, periods), `python3 fvals.py 11 23 29 31 37 43`, `python3 sym2.py <p> 150000`, and
-`python3 fix43.py` for p = 43. Results: `so5/results/so5_summary.json`.
+`python3 fix43.py` for p = 43 (or `python3 fixp.py <p> 200000` for any p; used for 41 as a cross-check). Results: `so5/results/so5_summary.json`.
 
 ## Next steps
 
