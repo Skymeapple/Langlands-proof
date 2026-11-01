@@ -78,7 +78,7 @@ of level p. Then
 
   |P(F,G)|² / (⟨F,F⟩⟨G,G⟩) = 3/(8π³) · L(f × Sym²g, 3) / ( ‖f‖² · L(f, 3) · (p − ε_f) ),
 
-where ‖f‖² = ∫_{Γ0(p)\H} |f|² y² dx dy/y² and L-values are in arithmetic normalisation
+where ‖f‖² = ∫_{Γ0(p)\H} |f|² y⁴ dx dy/y² (the weight-4 Petersson norm, PARI's `mfpetersson` times p+1) and L-values are in arithmetic normalisation
 (centre 3 for f × Sym²g).
 
 | Prediction | Data | Outcome |
